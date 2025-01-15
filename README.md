@@ -76,11 +76,11 @@ The `personal_information.yaml` file is where you provide your personal details 
     github: "https://github.com/yourusername"
     portfolio: ""
     ```
-### 4. Providing Your Credentials Securely: `super_duper_secrets.yaml`
+### 4. Providing Your Credentials Securely: `secrets.yaml`
 
 The `super_duper_secrets.yaml` file is where you store sensitive credentials required for MySuccessAutomation to operate. **Your security is a top priority.** This information is stored locally on your machine and is never transmitted externally.
 
-**Important:** This file is named `super_duper_secrets.yaml` and is located in the `./data_folder/input/` directory.
+**Important:** This file is named `secrets.yaml` and is located in the `./data_folder/input/` directory.
 
 Here's a breakdown of the required fields:
 
