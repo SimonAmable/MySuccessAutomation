@@ -35,7 +35,7 @@ Ready to take your co-op job search to the next level? Here's how to get started
     *   Place your PDF resume in the `/resume` folder. MySuccessAutomation will intelligently extract personal information about you, like skills, experience, education, and more, to personalize your applications.
 3. **Configure Your Preferences:**
     *   Fill out the `personal_information.yaml` file with all the requested details. Please refer to the video tutorial for more information! **Keywords** can be job titles, skills, or application preferences. Leave values blank if unwanted or not used, but do not delete keys.
-    *       *   Fill out the `super_duper_secrets.yaml` file with all the requested details. Please refer to the video tutorial for more information!
+    *  Fill out the `super_duper_secrets.yaml` file with all the requested details. Please refer to the video tutorial for more information!
        - CARLETON_USERNAME : String
         - CARLETON_PASSWORD : String
         - GOOGLE_API_KEY : String    (Sign up for free here : https://aistudio.google.com/apikey )
