@@ -1,5 +1,3 @@
-You got it! Here's the final cleaned-up version of your README, with spelling corrections, grammar improvements, and a few rephrased sections for better clarity and flow:
-
 # MySuccessAutomation: Your AI-Powered Coop Assistant 🚀
 
 ## How finish 100 applications in under 3 minutes:
@@ -34,9 +32,52 @@ Ready to take your co-op job search to the next level? Here's how to get started
 2. **Organize Your Files:**
     *   **All important information you must provide is in the folder "./data_folder/input/"**.
     *   Place your PDF resume in the `/resume` folder. MySuccessAutomation will intelligently extract personal information about you, like skills, experience, education, and more, to personalize your applications.
-3. **Configure Your Preferences:**
-    *   Fill out the `personal_information.yaml` file with all the requested details. Please refer to the video tutorial for more information! **Keywords** can be job titles, skills, or application preferences. Leave values blank if unwanted or not used, but do not delete keys.
-4. **Give me your secrets**
+3. **Configure Your Preferences:** `personal_information.yaml`
+The `personal_information.yaml` file is where you provide your personal details and customize your job search preferences. This file is crucial for tailoring your applications and cover letters. Here's a breakdown of each field:
+
+*   **`keywords`**:
+    *   This section defines the keywords that MySuccessAutomation will use to filter job postings on Carleton's MySuccess portal.
+    *   Add keywords that match your desired job titles, skills, or industries.
+    *   Be as specific or general as you like. For example, you can use "Software Engineer," "Data Science," "Machine Learning," "AWS," or "Web Development."
+    *   Add each keyword on a new line, indented with two spaces, and preceded by a hyphen (`-`).
+*   **`name`**:
+    *   Enter your first name here.
+*   **`surname`**:
+    *   Enter your last name here.
+*   **`email`**:
+    *   Enter your email address. This will be used in your cover letters and applications.
+*   **`phone`**:
+    *   Enter your phone number. This will be used in your cover letters and applications.
+*   **`linkedin`**:
+    *   Enter the full URL of your LinkedIn profile. This will be used in your cover letters and applications.
+*   **`github`**:
+    *   Enter the full URL of your GitHub profile. This will be used in your cover letters and applications.
+*   **`portfolio`**:
+    *   Enter the full URL of your personal portfolio website. This will be used in your cover letters and applications.
+
+**Important Notes:**
+
+*   Do not delete any fields (keys) in the `./data_folder/input/personal_information.yaml` file, even if you don't want to use them.
+*   If you don't want to include a particular field, leave its value blank (e.g., `portfolio: ""`).
+*   Ensure that the file is correctly formatted according to YAML syntax. You can use online YAML validators to check for errors.
+*   **Example:**
+
+    ```yaml
+    keywords:
+      - "Python"
+      - "Software Development"
+      - "Machine Learning"
+      - "AWS"
+
+    name: "YourName"
+    surname: "YourSurname"
+    email: "your.email@example.com"
+    phone: "123-456-7890"
+    linkedin: "https://www.linkedin.com/in/yourprofile/"
+    github: "https://github.com/yourusername"
+    portfolio: ""
+    ```
+4. **Give me your secrets** `super_duper_secrets.yaml`
     *  Fill out the `super_duper_secrets.yaml` file  in "./data_folder/input/super_duper_secrets.yaml" with all the requested details. Please refer to the video tutorial for more information! (i put a lot of work in to keep all your secrets on your machine locally and completely safe so dont worry.)
        - CARLETON_USERNAME : String
         - CARLETON_PASSWORD : String
@@ -141,7 +182,7 @@ Here's how you can contribute:
 2. **Create a new branch** for your feature or bug fix.
 3. **Submit a pull request** with a clear description of your changes.
 
-If you dont wanna do anything technical and want some help dont hesitate to send me a email at [simonamable@gmail.com](mailto:simonamable@gmail.com), or message my discord : simon3421
+If you dont wanna do anything technical and want some help dont hesitate to send me a email at [simonamable@gmail.com](mailto:simonamable@gmail.com), or message me on discord @ : simon3421
 
 ---
 
