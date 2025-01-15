@@ -4,7 +4,7 @@ You got it! Here's the final cleaned-up version of your README, with spelling co
 
 ## How finish 100 applications in under 3 minutes:
 # MAKE VIDEO AND PUT VIDEO LINK SIMON
-(for now please read this readME.md for instructions and message me if you need any help, video tutorial comming very soon)
+(for now please read this readME.md for instructions and message me if you need any help, video tutorial comming very soon. Also give this github project a 🌟 <3 ;) while your at the top of the page anyways or if you found it useful in the end ;) 
 
 ## Supercharge Your Carleton Co-op Job Search: Introducing MySuccessAutomation 🌟
 
@@ -29,17 +29,19 @@ Are you a Carleton University student tired of spending countless hours searchin
 Ready to take your co-op job search to the next level? Here's how to get started:
 
 1. **Prepare the Documents:**
-
     *   **Crucially**, have your latest **resume** and **transcript** already uploaded to MySuccess. The script currently only tailors your cover letter for each application and uses your most recently uploaded resume and transcript from MySuccess.
     *   Future updates will include resume customization to further tailor your applications!
 2. **Organize Your Files:**
+    *   **All important information you must provide is in the folder "./data_folder/input/"**.
     *   Place your PDF resume in the `/resume` folder. MySuccessAutomation will intelligently extract personal information about you, like skills, experience, education, and more, to personalize your applications.
 3. **Configure Your Preferences:**
     *   Fill out the `personal_information.yaml` file with all the requested details. Please refer to the video tutorial for more information! **Keywords** can be job titles, skills, or application preferences. Leave values blank if unwanted or not used, but do not delete keys.
-    *  Fill out the `super_duper_secrets.yaml` file  in "./data_folder/input/super_duper_secrets.yaml" with all the requested details. Please refer to the video tutorial for more information!
+4. **Give me your secrets**
+    *  Fill out the `super_duper_secrets.yaml` file  in "./data_folder/input/super_duper_secrets.yaml" with all the requested details. Please refer to the video tutorial for more information! (i put a lot of work in to keep all your secrets on your machine locally and completely safe so dont worry.)
        - CARLETON_USERNAME : String
         - CARLETON_PASSWORD : String
         - GOOGLE_API_KEY : String    (Sign up for free here : https://aistudio.google.com/apikey )
+       
 
 
 ---
