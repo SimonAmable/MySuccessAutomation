@@ -76,12 +76,38 @@ The `personal_information.yaml` file is where you provide your personal details 
     github: "https://github.com/yourusername"
     portfolio: ""
     ```
-4. **Give me your secrets** `super_duper_secrets.yaml`
-    *  Fill out the `super_duper_secrets.yaml` file  in "./data_folder/input/super_duper_secrets.yaml" with all the requested details. Please refer to the video tutorial for more information! (i put a lot of work in to keep all your secrets on your machine locally and completely safe so dont worry.)
-       - CARLETON_USERNAME : String
-        - CARLETON_PASSWORD : String
-        - GOOGLE_API_KEY : String    (Sign up for free here : https://aistudio.google.com/apikey )
-       
+### 4. Providing Your Credentials Securely: `super_duper_secrets.yaml`
+
+The `super_duper_secrets.yaml` file is where you store sensitive credentials required for MySuccessAutomation to operate. **Your security is a top priority.** This information is stored locally on your machine and is never transmitted externally.
+
+**Important:** This file is named `super_duper_secrets.yaml` and is located in the `./data_folder/input/` directory.
+
+Here's a breakdown of the required fields:
+
+*   **`CARLETON_USERNAME`**:
+    *   Enter your Carleton University MySuccess username as a string.
+    *   **Example:**  `CARLETON_USERNAME: "your_username"`
+*   **`CARLETON_PASSWORD`**:
+    *   Enter your Carleton University MySuccess password as a string.
+    *   **Example:** `CARLETON_PASSWORD: "your_password"`
+*   **`GOOGLE_API_KEY`**:
+    *   Enter your Google API key as a string. This is used for accessing Google's AI services (Gemini). (this is pretty much just OPENAI's chatgpt but its COMPLETELY FREE for a api key as oposed to open ai. If you have a OPENAI api key or prefer to wish that please leave GOOGLE_API_KEY blank and uncomment the OPENAI_API_KEY in the super_duper_secrets.yaml file)
+    *   You can obtain a free API key by signing up here: [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+    *   **Example:** `GOOGLE_API_KEY: "your_api_key"`
+
+**Security Considerations:**
+
+*   **Local Storage:** All data in `super_duper_secrets.yaml` is processed and stored **exclusively on your local machine**.
+*   **No External Transmission:** Your credentials are **never sent to any external servers or services.**
+*   **.gitignore:** The `super_duper_secrets.yaml` file is included in the project's `.gitignore` file. This prevents it from being accidentally committed to your Git repository, ensuring your credentials remain private.
+*   **Responsibility** While this project takes measures to protect your data locally, always be cautious when handling sensitive information.
+
+**Example `super_duper_secrets.yaml`:**
+
+```yaml
+CARLETON_USERNAME: "BugsBunny"  # Replace with your Carleton username
+CARLETON_PASSWORD: "MySuperSecurePassword"  # Replace with your Carleton password
+GOOGLE_API_KEY: "AIzaSyDOC-your_key_here-V2vB"  # Replace with your Google API key
 
 
 ---
