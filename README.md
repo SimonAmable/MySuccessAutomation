@@ -3,7 +3,8 @@ You got it! Here's the final cleaned-up version of your README, with spelling co
 # MySuccessAutomation: Your AI-Powered Coop Assistant 🚀
 
 ## How finish 100 applications in under 3 minutes:
-# MAKE VIDEO AND PUT VIDEO LINK
+# MAKE VIDEO AND PUT VIDEO LINK SIMON
+(for now please read this readME.md for instructions and message me if you need any help, video tutorial comming very soon)
 
 ## Supercharge Your Carleton Co-op Job Search: Introducing MySuccessAutomation 🌟
 
