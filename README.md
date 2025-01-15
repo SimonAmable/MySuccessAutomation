@@ -27,7 +27,7 @@ Are you a Carleton University student tired of spending countless hours searchin
 
 Ready to take your co-op job search to the next level? Here's how to get started:
 
-1. **Prepare Your Documents on MySuccess:**
+1. **Prepare the Documents:**
 
     *   **Crucially**, have your latest **resume** and **transcript** already uploaded to MySuccess. The script currently only tailors your cover letter for each application and uses your most recently uploaded resume and transcript from MySuccess.
     *   Future updates will include resume customization to further tailor your applications!
@@ -35,7 +35,7 @@ Ready to take your co-op job search to the next level? Here's how to get started
     *   Place your PDF resume in the `/resume` folder. MySuccessAutomation will intelligently extract personal information about you, like skills, experience, education, and more, to personalize your applications.
 3. **Configure Your Preferences:**
     *   Fill out the `personal_information.yaml` file with all the requested details. Please refer to the video tutorial for more information! **Keywords** can be job titles, skills, or application preferences. Leave values blank if unwanted or not used, but do not delete keys.
-    *  Fill out the `super_duper_secrets.yaml` file with all the requested details. Please refer to the video tutorial for more information!
+    *  Fill out the `super_duper_secrets.yaml` file  in "./data_folder/input/super_duper_secrets.yaml" with all the requested details. Please refer to the video tutorial for more information!
        - CARLETON_USERNAME : String
         - CARLETON_PASSWORD : String
         - GOOGLE_API_KEY : String    (Sign up for free here : https://aistudio.google.com/apikey )
@@ -110,19 +110,19 @@ We're dedicated to continuously enhancing MySuccessAutomation. Here's what's on 
 
 ## We're Here to Help: Support and Assistance 🤝
 
-Need help or have questions? We're here for you!
+Need help with anything or have questions? I'm here for you! Please email me of contact one of my social medias for the fastest reply
 
-*   **Email:** support@example.com
-*   **GitHub Issues:** [Submit an issue](https://github.com/yourusername/MySuccessAutomation/issues)
+*   **Email:** Simonamable@gmail.com
+*   **GitHub Issues:** [Submit an issue](https://github.com/Simonamable/MySuccessAutomation/issues)
 
 ---
 
 ## Frequently Asked Questions: Your Answers Await ❓
 
 *   **Q: Is MySuccessAutomation compatible with Mac, Windows, and Linux?**
-    *   **A:** Yes! It's designed for cross-platform compatibility. Just make sure Python and the required dependencies are installed.
+    *   **A:** Yes! It's designed for cross-platform compatibility. Just make sure Python and the required dependencies are installed. (only tested on windows currently i'll admit)
 *   **Q: How secure is my data?**
-    *   **A:** Your data security is our top priority. All data processing occurs locally on your machine. No information is transmitted to external servers.
+    *   **A:** Your data security is my top priority. All data processing occurs locally on your machine. No sensitive information is transmitted to external servers.
 *   **Q: Will this work for jobs outside of Carleton's MySuccess?**
     *   **A:** No, **MySuccessAutomation is specifically designed for Carleton University's MySuccess co-op portal.** It will not function correctly with other job boards or application systems.
 
@@ -138,11 +138,13 @@ Here's how you can contribute:
 2. **Create a new branch** for your feature or bug fix.
 3. **Submit a pull request** with a clear description of your changes.
 
+If you dont wanna do anything technical and want some help dont hesitate to send me a email at [simonamable@gmail.com](mailto:simonamable@gmail.com), or message my discord : simon3421
+
 ---
 
 ## Giving Credit Where It's Due: Credits and Acknowledgements 📚
 
-*   **Inspiration:** The architectural redesign of MySuccessAutomation was inspired by the innovative AI Hawk project (I read their README, I gotta admit).
+*   **Inspiration:** The architectural redesign of MySuccessAutomation was inspired by the innovative [AI Hawk](https://github.com/feder-cr/Jobs_Applier_AI_Agent)  (I read their README, I gotta admit).
 *   **A Heartfelt Thank You:** Big thanks to Adilet and all our amazing testers for their invaluable feedback and contributions.
 
 ---
