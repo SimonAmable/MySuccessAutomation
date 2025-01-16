@@ -20,8 +20,8 @@ from tailor_cover_letter import make_and_save_cv_from_job_desc
 from dotenv import find_dotenv, load_dotenv
 from loggin import print
 # Initialize and update configurations with personal information
-# configs = load_config()
-# configs = update_config_with_personal_info(configs)
+configs = load_config()
+configs = update_config_with_personal_info(configs)
 
 
 
