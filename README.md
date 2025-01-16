@@ -1,6 +1,6 @@
 # MySuccessAutomation: Your AI-Powered Coop Assistant 🚀
 
-## How finish 100 applications in under 3 minutes:
+## Your Co-op Advantage. Get more interviews by automating your MySuccess applications with AI.
 # MAKE VIDEO AND PUT VIDEO LINK SIMON
 (for now please read this readME.md for instructions and message me if you need any help, video tutorial comming very soon. ALSO this project is completely free and took a lot of time tbh so give this github project a 🌟 while your at the top of the page or if you found it useful in the end ;) 
 
