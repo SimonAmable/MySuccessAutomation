@@ -1,3 +1,4 @@
+
 # MySuccessAutomation: Your AI-Powered Coop Assistant 🚀
 
 ## Your Co-op Advantage. Get more interviews by automating your MySuccess applications with AI.
@@ -8,7 +9,6 @@ Please read this readME.md for instructions and message me if you need any help,
 ## Supercharge Your Carleton Co-op Job Search: Introducing MySuccessAutomation 🌟
 
 Are you a Carleton University student tired of spending countless hours searching for co-op jobs on MySuccess and manually filling out the same applications over and over again? **MySuccessAutomation** is your ultimate co-op job search companion, built specifically for **Carleton University's MySuccess portal**! This innovative tool combines the power of **artificial intelligence** and **intelligent web automation** to find ideal job matches, craft personalized cover letters, and even **submit applications** on your behalf! Get ready to land more interviews and unlock your dream co-op placement faster than ever before!
-
 
 ---
 
@@ -32,6 +32,7 @@ Ready to take your co-op job search to the next level? Here's how to get started
 2. **Organize Your Files:**
     *   **All important information you must provide is in the folder "./data_folder/input/"**.
     *   Place your PDF resume in the `/resume` folder. MySuccessAutomation will intelligently extract personal information about you, like skills, experience, education, and more, to personalize your applications.
+
 ### 3. Configure Your Preferences: `personal_information.yaml`
 
 The `personal_information.yaml` file is where you provide your personal details and customize your job search preferences. This file is crucial for tailoring your applications and cover letters. Here's a breakdown of each field:
@@ -79,9 +80,7 @@ The `personal_information.yaml` file is where you provide your personal details 
     github: "https://github.com/yourusername"
     portfolio: ""
     ```
-**Example of Corrected YAML (secrets.yaml):**
 
-```markdown
 ### 4. Providing Your Credentials Securely: `secrets.yaml`
 
 The `secrets.yaml` file is where you store sensitive credentials required for MySuccessAutomation to operate. **Your security is a top priority.** This information is stored locally on your machine and is never transmitted externally.
@@ -92,7 +91,7 @@ Here's a breakdown of the required fields:
 
 *   **`CARLETON_USERNAME`**:
     *   Enter your Carleton University MySuccess username as a string.
-    *   **Example:**  `CARLETON_USERNAME: "your_username"`
+    *   **Example:** `CARLETON_USERNAME: "your_username"`
 *   **`CARLETON_PASSWORD`**:
     *   Enter your Carleton University MySuccess password as a string.
     *   **Example:** `CARLETON_PASSWORD: "your_password"`
@@ -103,23 +102,23 @@ Here's a breakdown of the required fields:
 
 **Security Considerations:**
 
-*   **Local Storage:** All data in `super_duper_secrets.yaml` is processed and stored **exclusively on your local machine**.
+*   **Local Storage:** All data in `secrets.yaml` is processed and stored **exclusively on your local machine**.
 *   **No External Transmission:** Your credentials are **never sent to any external servers or services.**
-*   **.gitignore:** The `super_duper_secrets.yaml` file is included in the project's `.gitignore` file. This prevents it from being accidentally committed to your Git repository, ensuring your credentials remain private.
+*   **.gitignore:** The `secrets.yaml` file is included in the project's `.gitignore` file. This prevents it from being accidentally committed to your Git repository, ensuring your credentials remain private.
 *   **Responsibility** While this project takes measures to protect your data locally, always be cautious when handling sensitive information.
 
-**Example `super_duper_secrets.yaml`:**
+**Example `secrets.yaml`:**
 
 ```yaml
 CARLETON_USERNAME: "BugsBunny"  # Replace with your Carleton username
 CARLETON_PASSWORD: "MySuperSecurePassword"  # Replace with your Carleton password
 GOOGLE_API_KEY: "AIzaSyDOC-your_key_here-V2vB"  # Replace with your Google API key
+```
 
 > **Personal Note from the Developer:**
 Apologies for the delayed release. Juggling a major project i've yet to release, school, and work commitments has been quite the challenge. I haven't personally used MySuccessAutomation in 2024, but only because I'm not in the co-op program this year for unrelated reasons. For any employeers or people willing to refer me : I'm open to work opportunities for the summer of 2025 though! #SomeonePleaseGiveMeAJob
 
 ---
-
 
 ## Installation and Execution: Step-by-Step Instructions 🌐
 
@@ -153,7 +152,6 @@ python auto_apply.py
 ```
 
 ---
-
 
 ## Troubleshooting: Your Quick Fix Guide 🛠️
 
@@ -214,7 +212,7 @@ If you dont wanna do anything technical and want some help dont hesitate to send
 
 ## Giving Credit Where It's Due: Credits and Acknowledgements 📚
 
-*   **Inspiration:** The architectural redesign of MySuccessAutomation was inspired by the innovative [AI Hawk](https://github.com/feder-cr/Jobs_Applier_AI_Agent)  (I read their README but havent used it yet because i got no time lolololololololololololol).
+*   **Inspiration:** The architectural redesign of MySuccessAutomation was inspired by the innovative [AI Hawk](https://github.com/feder-cr/Jobs_Applier_AI_Agent)  (I read their README but havent used it yet because i got no time lolol #SomeonePleaseGiveMeAJob).
 *   **A Heartfelt Thank You:** Big thanks to Adilet and all our amazing testers for their invaluable feedback and contributions.
 
 ---
