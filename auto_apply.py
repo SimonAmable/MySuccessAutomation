@@ -289,12 +289,12 @@ def main():
     load_dotenv(dotenv_path)
     
     # Retrieve login credentials from environment variables
-    CARLETON_USERNAME = os.getenv("MY_USERNAME")
-    CARLETON_PASSWORD = os.getenv("MY_PASSWORD")
+    # CARLETON_USERNAME = os.getenv("MY_USERNAME")
+    # CARLETON_PASSWORD = os.getenv("MY_PASSWORD")
     # Retrieve login credentials from secrets file
     secrets = load_secrets()
-    # CARLETON_USERNAME = secrets["CARLETON_USERNAME"]
-    # CARLETON_PASSWORD = secrets["CARLETON_PASSWORD"]
+    CARLETON_USERNAME = secrets["CARLETON_USERNAME"]
+    CARLETON_PASSWORD = secrets["CARLETON_PASSWORD"]
 
     configs = load_config()
     # Incorporate personal information into the configurations
