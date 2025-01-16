@@ -1,0 +1,8 @@
+2025-01-15 14:00:41,918 - loggin - INFO - Configurations loaded successfully:
+2025-01-15 14:00:41,954 - loggin - INFO - Starting the job application automation script.
+2025-01-15 14:00:42,082 - loggin - INFO - Updated configurations with personal information:
+2025-01-15 14:00:42,096 - loggin - INFO - Debugging: Configurations loaded successfully.
+2025-01-15 14:00:42,097 - loggin - INFO - Initializing WebDriver
+2025-01-15 14:00:46,037 - loggin - INFO - Starting login process
+2025-01-15 14:00:48,563 - loggin - INFO - Page title after clicking login: Sign In
+2025-01-15 14:00:49,280 - loggin - INFO - Attempting to click the student portal link.

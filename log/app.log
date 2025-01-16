@@ -1,0 +1,173 @@
+2025-01-15 06:33:45,859 - loggin - INFO - Configurations loaded successfully:
+2025-01-15 06:33:45,860 - loggin - INFO - {'keywords': ['Python'], 'name': 'Adilet', 'surname': 'Ishenbekov', 'email': 'adiletishenbekov2004@gmail.com', 'phone': '613-413-5508', 'linkedin': 'https://www.linkedin.com/in/adilet-ishenbekov-05a822214/?originalSubdomain=ca', 'github': 'https://github.com/AdiletIshenbekov', 'portfolio': '', 'regex': '(?i)(Python)', 'personal_information': 'Adiletkhan Ishenbekov \n Adiletishenbekov2004@gmail.com |   (647)-581-8324 |   Adilet-Ishenbekov |  AdiletIshenbekov \nEDUCATION \nCarleton University | Ottawa, Canada                                            Expected Graduation Date: April 2027 \nHonours BSc in Computer Science, Computer and Internet Security       CGPA: 10.4/12 (A-) \nRelevant Courses: Abstract Data Types and Algorithms (Java), Systems Programming (C), Intro to Software Engineering (C++), \nDiscrete Mathematics, Database Management Systems (PostgreSQL), Fundamental Web Applications (JavaScript)  \n \nTECHNICAL SKILLS  \n     Languages – Java, JavaScript, Python, C++, Kotlin, SQL (PostgreSQL, SQLite3, MySQL, VizSQL), PHP , DXL (IBM DOORS) \n     Frameworks – Node.js, Express, MongoDB, Selenium, React \n     Developer Tools – Git, AWS, JIRA, Confluence, Windchill, Linux CL, Excel, Tableau \n     Libraries – OpenAI API, jQuery, Carbon \n \nEXPERIENCE \nDatabase Engineer (Part-time)               December 2024 - Present \nLockheed Martin – Kanata Ottawa  \n \nDatabase Developer Co-op                                                                                September 2024 – December 2024    \nLockheed Martin – Kanata, Ottawa \n• Part of the Technical Data Package (TDP) team on the Canadian Surface Combatant (CSC) project responsible for \nupdating and maintaining data for the Combat Systems Equipment List (CSEL) database. \n• Managing and developing combat systems database to track key SWAP-C characteristics (Space, Weight, Area, Power, \nCost) of the ships combat sub-systems via DOORS Database. \n• Optimized existing scripts using DXL (DOORS Extension Language) and Python which extracted large datasets from \nbaselines to calculate SWAP-C attributes used in a Change Request Tracker, resulting in a ~95% reduction in runtime. \n• Leveraged DXL to restructure the entire CR Tracker architecture, creating easier access, deletion and addition of data.  \n• Created a visual dashboard in Tableau and VizSQL of SWAP-C data for the current release of the CSEL to our vendors \nand teams, which was presented at the CSC program director level, displaying ability to deliver high quality work.  \n \nPROJECTS \nChess Engine (AI) | Java, Git, Swing                                                           August 2023 \n• Developed a chess AI bot using different data structures such as Lists, HashTables and Bitboards for storing and \ngenerating legal moves, keeping track of previously evaluated positions and chess board updates. \n• Developed an evaluation algorithm based on material, piece position, pawn structure, etc. by giving a numerical value \nto every piece and square on the board using bitboards. \n• Utilized OOP principles by creating classes for key components such as pieces, players, the board, and every square. \n \nContent & User Management Program | JavaScript (HTML + CSS), PHP , MySQL                                            October 2023 \n• Developed a social media like full-stack application featuring registration/login, content posting and admin \nfunctionalities using the XAMPP control panel for back-end database management. \n• Created a robust user authentication system which safely stores data by using the SHA1 encryption mechanism. \n \nEXTRACURRICULARS \nMarkham Brazilian Jiu-Jitsu (BJJ)                   Present \n• Member of a BJJ program, displaying self-discipline and dedication to personal health and continuous improvement. \n \nuOttaHack6 HACKATHON – 3RD PLACE WINNERS Ford Challenge                        March 2024 \nEco UI - Electric Vehicle Navigation App | Kotlin, Android Studio, XML, GitHub                                                          \n• Collaborated with a team of 4 members to develop an Android app that enables users to navigate between 2 locations \nby displaying the route and estimated travel time, using Google Maps API.  \n• Implemented a user-defined radius which will scrape all electric charging stations within the area on the press of a \nbutton using Google’s Geolocation API and an EV charging station API. \n'}
+2025-01-15 06:33:45,864 - loggin - INFO - Starting the job application automation script.
+2025-01-15 06:33:45,963 - loggin - INFO - Updated configurations with personal information:
+2025-01-15 06:33:45,963 - loggin - INFO - {'keywords': ['Python'], 'name': 'Adilet', 'surname': 'Ishenbekov', 'email': 'adiletishenbekov2004@gmail.com', 'phone': '613-413-5508', 'linkedin': 'https://www.linkedin.com/in/adilet-ishenbekov-05a822214/?originalSubdomain=ca', 'github': 'https://github.com/AdiletIshenbekov', 'portfolio': '', 'personal_info': 'Adiletkhan Ishenbekov \n Adiletishenbekov2004@gmail.com |   (647)-581-8324 |   Adilet-Ishenbekov |  AdiletIshenbekov \nEDUCATION \nCarleton University | Ottawa, Canada                                            Expected Graduation Date: April 2027 \nHonours BSc in Computer Science, Computer and Internet Security       CGPA: 10.4/12 (A-) \nRelevant Courses: Abstract Data Types and Algorithms (Java), Systems Programming (C), Intro to Software Engineering (C++), \nDiscrete Mathematics, Database Management Systems (PostgreSQL), Fundamental Web Applications (JavaScript)  \n \nTECHNICAL SKILLS  \n     Languages – Java, JavaScript, Python, C++, Kotlin, SQL (PostgreSQL, SQLite3, MySQL, VizSQL), PHP , DXL (IBM DOORS) \n     Frameworks – Node.js, Express, MongoDB, Selenium, React \n     Developer Tools – Git, AWS, JIRA, Confluence, Windchill, Linux CL, Excel, Tableau \n     Libraries – OpenAI API, jQuery, Carbon \n \nEXPERIENCE \nDatabase Engineer (Part-time)               December 2024 - Present \nLockheed Martin – Kanata Ottawa  \n \nDatabase Developer Co-op                                                                                September 2024 – December 2024    \nLockheed Martin – Kanata, Ottawa \n• Part of the Technical Data Package (TDP) team on the Canadian Surface Combatant (CSC) project responsible for \nupdating and maintaining data for the Combat Systems Equipment List (CSEL) database. \n• Managing and developing combat systems database to track key SWAP-C characteristics (Space, Weight, Area, Power, \nCost) of the ships combat sub-systems via DOORS Database. \n• Optimized existing scripts using DXL (DOORS Extension Language) and Python which extracted large datasets from \nbaselines to calculate SWAP-C attributes used in a Change Request Tracker, resulting in a ~95% reduction in runtime. \n• Leveraged DXL to restructure the entire CR Tracker architecture, creating easier access, deletion and addition of data.  \n• Created a visual dashboard in Tableau and VizSQL of SWAP-C data for the current release of the CSEL to our vendors \nand teams, which was presented at the CSC program director level, displaying ability to deliver high quality work.  \n \nPROJECTS \nChess Engine (AI) | Java, Git, Swing                                                           August 2023 \n• Developed a chess AI bot using different data structures such as Lists, HashTables and Bitboards for storing and \ngenerating legal moves, keeping track of previously evaluated positions and chess board updates. \n• Developed an evaluation algorithm based on material, piece position, pawn structure, etc. by giving a numerical value \nto every piece and square on the board using bitboards. \n• Utilized OOP principles by creating classes for key components such as pieces, players, the board, and every square. \n \nContent & User Management Program | JavaScript (HTML + CSS), PHP , MySQL                                            October 2023 \n• Developed a social media like full-stack application featuring registration/login, content posting and admin \nfunctionalities using the XAMPP control panel for back-end database management. \n• Created a robust user authentication system which safely stores data by using the SHA1 encryption mechanism. \n \nEXTRACURRICULARS \nMarkham Brazilian Jiu-Jitsu (BJJ)                   Present \n• Member of a BJJ program, displaying self-discipline and dedication to personal health and continuous improvement. \n \nuOttaHack6 HACKATHON – 3RD PLACE WINNERS Ford Challenge                        March 2024 \nEco UI - Electric Vehicle Navigation App | Kotlin, Android Studio, XML, GitHub                                                          \n• Collaborated with a team of 4 members to develop an Android app that enables users to navigate between 2 locations \nby displaying the route and estimated travel time, using Google Maps API.  \n• Implemented a user-defined radius which will scrape all electric charging stations within the area on the press of a \nbutton using Google’s Geolocation API and an EV charging station API. \n'}
+2025-01-15 06:33:45,966 - loggin - INFO - Debugging: Configurations loaded successfully.
+2025-01-15 06:33:45,966 - loggin - INFO - Initializing WebDriver
+2025-01-15 06:33:47,851 - loggin - INFO - Starting login process
+2025-01-15 06:33:48,822 - loggin - INFO - Page title after clicking login: Sign In
+2025-01-15 06:33:49,317 - loggin - INFO - Attempting to click the student portal link.
+2025-01-15 06:33:59,351 - loggin - INFO - Extra page did not appear, proceeding with login.
+2025-01-15 06:33:59,352 - loggin - INFO - Login successful.
+2025-01-15 06:33:59,352 - loggin - INFO - Navigating to Co-op jobs page.
+2025-01-15 06:40:13,835 - loggin - INFO - Configurations loaded successfully:
+2025-01-15 06:40:13,835 - loggin - INFO - {'keywords': ['Python'], 'name': 'Adilet', 'surname': 'Ishenbekov', 'email': 'adiletishenbekov2004@gmail.com', 'phone': '613-413-5508', 'linkedin': 'https://www.linkedin.com/in/adilet-ishenbekov-05a822214/?originalSubdomain=ca', 'github': 'https://github.com/AdiletIshenbekov', 'portfolio': '', 'regex': '(?i)(Python)', 'personal_information': 'Adiletkhan Ishenbekov \n Adiletishenbekov2004@gmail.com |   (647)-581-8324 |   Adilet-Ishenbekov |  AdiletIshenbekov \nEDUCATION \nCarleton University | Ottawa, Canada                                            Expected Graduation Date: April 2027 \nHonours BSc in Computer Science, Computer and Internet Security       CGPA: 10.4/12 (A-) \nRelevant Courses: Abstract Data Types and Algorithms (Java), Systems Programming (C), Intro to Software Engineering (C++), \nDiscrete Mathematics, Database Management Systems (PostgreSQL), Fundamental Web Applications (JavaScript)  \n \nTECHNICAL SKILLS  \n     Languages – Java, JavaScript, Python, C++, Kotlin, SQL (PostgreSQL, SQLite3, MySQL, VizSQL), PHP , DXL (IBM DOORS) \n     Frameworks – Node.js, Express, MongoDB, Selenium, React \n     Developer Tools – Git, AWS, JIRA, Confluence, Windchill, Linux CL, Excel, Tableau \n     Libraries – OpenAI API, jQuery, Carbon \n \nEXPERIENCE \nDatabase Engineer (Part-time)               December 2024 - Present \nLockheed Martin – Kanata Ottawa  \n \nDatabase Developer Co-op                                                                                September 2024 – December 2024    \nLockheed Martin – Kanata, Ottawa \n• Part of the Technical Data Package (TDP) team on the Canadian Surface Combatant (CSC) project responsible for \nupdating and maintaining data for the Combat Systems Equipment List (CSEL) database. \n• Managing and developing combat systems database to track key SWAP-C characteristics (Space, Weight, Area, Power, \nCost) of the ships combat sub-systems via DOORS Database. \n• Optimized existing scripts using DXL (DOORS Extension Language) and Python which extracted large datasets from \nbaselines to calculate SWAP-C attributes used in a Change Request Tracker, resulting in a ~95% reduction in runtime. \n• Leveraged DXL to restructure the entire CR Tracker architecture, creating easier access, deletion and addition of data.  \n• Created a visual dashboard in Tableau and VizSQL of SWAP-C data for the current release of the CSEL to our vendors \nand teams, which was presented at the CSC program director level, displaying ability to deliver high quality work.  \n \nPROJECTS \nChess Engine (AI) | Java, Git, Swing                                                           August 2023 \n• Developed a chess AI bot using different data structures such as Lists, HashTables and Bitboards for storing and \ngenerating legal moves, keeping track of previously evaluated positions and chess board updates. \n• Developed an evaluation algorithm based on material, piece position, pawn structure, etc. by giving a numerical value \nto every piece and square on the board using bitboards. \n• Utilized OOP principles by creating classes for key components such as pieces, players, the board, and every square. \n \nContent & User Management Program | JavaScript (HTML + CSS), PHP , MySQL                                            October 2023 \n• Developed a social media like full-stack application featuring registration/login, content posting and admin \nfunctionalities using the XAMPP control panel for back-end database management. \n• Created a robust user authentication system which safely stores data by using the SHA1 encryption mechanism. \n \nEXTRACURRICULARS \nMarkham Brazilian Jiu-Jitsu (BJJ)                   Present \n• Member of a BJJ program, displaying self-discipline and dedication to personal health and continuous improvement. \n \nuOttaHack6 HACKATHON – 3RD PLACE WINNERS Ford Challenge                        March 2024 \nEco UI - Electric Vehicle Navigation App | Kotlin, Android Studio, XML, GitHub                                                          \n• Collaborated with a team of 4 members to develop an Android app that enables users to navigate between 2 locations \nby displaying the route and estimated travel time, using Google Maps API.  \n• Implemented a user-defined radius which will scrape all electric charging stations within the area on the press of a \nbutton using Google’s Geolocation API and an EV charging station API. \n'}
+2025-01-15 06:40:13,837 - loggin - INFO - Starting the job application automation script.
+2025-01-15 06:40:13,936 - loggin - INFO - Updated configurations with personal information:
+2025-01-15 06:40:13,936 - loggin - INFO - {'keywords': ['Python'], 'name': 'Adilet', 'surname': 'Ishenbekov', 'email': 'adiletishenbekov2004@gmail.com', 'phone': '613-413-5508', 'linkedin': 'https://www.linkedin.com/in/adilet-ishenbekov-05a822214/?originalSubdomain=ca', 'github': 'https://github.com/AdiletIshenbekov', 'portfolio': '', 'personal_info': 'Adiletkhan Ishenbekov \n Adiletishenbekov2004@gmail.com |   (647)-581-8324 |   Adilet-Ishenbekov |  AdiletIshenbekov \nEDUCATION \nCarleton University | Ottawa, Canada                                            Expected Graduation Date: April 2027 \nHonours BSc in Computer Science, Computer and Internet Security       CGPA: 10.4/12 (A-) \nRelevant Courses: Abstract Data Types and Algorithms (Java), Systems Programming (C), Intro to Software Engineering (C++), \nDiscrete Mathematics, Database Management Systems (PostgreSQL), Fundamental Web Applications (JavaScript)  \n \nTECHNICAL SKILLS  \n     Languages – Java, JavaScript, Python, C++, Kotlin, SQL (PostgreSQL, SQLite3, MySQL, VizSQL), PHP , DXL (IBM DOORS) \n     Frameworks – Node.js, Express, MongoDB, Selenium, React \n     Developer Tools – Git, AWS, JIRA, Confluence, Windchill, Linux CL, Excel, Tableau \n     Libraries – OpenAI API, jQuery, Carbon \n \nEXPERIENCE \nDatabase Engineer (Part-time)               December 2024 - Present \nLockheed Martin – Kanata Ottawa  \n \nDatabase Developer Co-op                                                                                September 2024 – December 2024    \nLockheed Martin – Kanata, Ottawa \n• Part of the Technical Data Package (TDP) team on the Canadian Surface Combatant (CSC) project responsible for \nupdating and maintaining data for the Combat Systems Equipment List (CSEL) database. \n• Managing and developing combat systems database to track key SWAP-C characteristics (Space, Weight, Area, Power, \nCost) of the ships combat sub-systems via DOORS Database. \n• Optimized existing scripts using DXL (DOORS Extension Language) and Python which extracted large datasets from \nbaselines to calculate SWAP-C attributes used in a Change Request Tracker, resulting in a ~95% reduction in runtime. \n• Leveraged DXL to restructure the entire CR Tracker architecture, creating easier access, deletion and addition of data.  \n• Created a visual dashboard in Tableau and VizSQL of SWAP-C data for the current release of the CSEL to our vendors \nand teams, which was presented at the CSC program director level, displaying ability to deliver high quality work.  \n \nPROJECTS \nChess Engine (AI) | Java, Git, Swing                                                           August 2023 \n• Developed a chess AI bot using different data structures such as Lists, HashTables and Bitboards for storing and \ngenerating legal moves, keeping track of previously evaluated positions and chess board updates. \n• Developed an evaluation algorithm based on material, piece position, pawn structure, etc. by giving a numerical value \nto every piece and square on the board using bitboards. \n• Utilized OOP principles by creating classes for key components such as pieces, players, the board, and every square. \n \nContent & User Management Program | JavaScript (HTML + CSS), PHP , MySQL                                            October 2023 \n• Developed a social media like full-stack application featuring registration/login, content posting and admin \nfunctionalities using the XAMPP control panel for back-end database management. \n• Created a robust user authentication system which safely stores data by using the SHA1 encryption mechanism. \n \nEXTRACURRICULARS \nMarkham Brazilian Jiu-Jitsu (BJJ)                   Present \n• Member of a BJJ program, displaying self-discipline and dedication to personal health and continuous improvement. \n \nuOttaHack6 HACKATHON – 3RD PLACE WINNERS Ford Challenge                        March 2024 \nEco UI - Electric Vehicle Navigation App | Kotlin, Android Studio, XML, GitHub                                                          \n• Collaborated with a team of 4 members to develop an Android app that enables users to navigate between 2 locations \nby displaying the route and estimated travel time, using Google Maps API.  \n• Implemented a user-defined radius which will scrape all electric charging stations within the area on the press of a \nbutton using Google’s Geolocation API and an EV charging station API. \n'}
+2025-01-15 06:40:13,939 - loggin - INFO - Debugging: Configurations loaded successfully.
+2025-01-15 06:40:13,939 - loggin - INFO - Initializing WebDriver
+2025-01-15 06:40:15,854 - loggin - INFO - Starting login process
+2025-01-15 06:40:16,806 - loggin - INFO - Page title after clicking login: Sign In
+2025-01-15 06:40:17,265 - loggin - INFO - Attempting to click the student portal link.
+2025-01-15 06:40:27,288 - loggin - INFO - Extra page did not appear, proceeding with login.
+2025-01-15 06:40:27,289 - loggin - INFO - Login successful.
+2025-01-15 06:40:27,289 - loggin - INFO - Navigating to Co-op jobs page.
+2025-01-15 06:40:35,902 - loggin - INFO - Reached Co-op jobs page.
+2025-01-15 06:40:35,916 - loggin - INFO - Number of tables found: 2
+2025-01-15 06:40:35,916 - loggin - INFO - Retrieving job links.
+2025-01-15 06:40:35,957 - loggin - INFO - Found 93 job links.
+2025-01-15 06:40:35,957 - loggin - INFO - Processing job page.
+2025-01-15 06:40:37,508 - loggin - INFO - Retrieving company name...
+2025-01-15 06:40:37,525 - loggin - INFO - Retrieving position title...
+2025-01-15 06:40:37,540 - loggin - INFO - Retrieving job description...
+2025-01-15 06:40:37,559 - loggin - INFO - Retrieving application method...
+2025-01-15 06:40:37,723 - loggin - INFO - Checking for the APPLY button.
+2025-01-15 06:40:37,737 - loggin - INFO - APPLY button found.
+2025-01-15 06:40:37,737 - loggin - INFO - Using regex pattern: (?i)(Python)
+2025-01-15 06:40:37,738 - loggin - INFO - Job 'iprdlabtechnologistcoopintern15635' does not match criteria. Skipping application.
+2025-01-15 06:40:37,738 - loggin - INFO - Closing job page.
+2025-01-15 06:40:37,809 - loggin - INFO - Closed the job page tab.
+2025-01-15 06:40:37,823 - loggin - INFO - Switched back to the main window.
+2025-01-15 06:40:37,824 - loggin - INFO - Processing job page.
+2025-01-15 06:40:39,571 - loggin - INFO - Retrieving company name...
+2025-01-15 06:40:39,586 - loggin - INFO - Retrieving position title...
+2025-01-15 06:40:39,601 - loggin - INFO - Retrieving job description...
+2025-01-15 06:40:39,615 - loggin - INFO - Retrieving application method...
+2025-01-15 06:40:39,769 - loggin - INFO - Checking for the APPLY button.
+2025-01-15 06:40:39,783 - loggin - INFO - APPLY button found.
+2025-01-15 06:40:39,784 - loggin - INFO - Using regex pattern: (?i)(Python)
+2025-01-15 06:40:39,784 - loggin - INFO - Job 'engineeringlabtechniciancoopintern15631' does not match criteria. Skipping application.
+2025-01-15 06:40:39,784 - loggin - INFO - Closing job page.
+2025-01-15 06:40:39,851 - loggin - INFO - Closed the job page tab.
+2025-01-15 06:40:39,864 - loggin - INFO - Switched back to the main window.
+2025-01-15 06:40:39,864 - loggin - INFO - Processing job page.
+2025-01-15 06:40:41,629 - loggin - INFO - Retrieving company name...
+2025-01-15 06:40:41,644 - loggin - INFO - Retrieving position title...
+2025-01-15 06:40:41,664 - loggin - INFO - Retrieving job description...
+2025-01-15 06:40:41,677 - loggin - INFO - Retrieving application method...
+2025-01-15 06:40:41,835 - loggin - INFO - Checking for the APPLY button.
+2025-01-15 06:40:41,847 - loggin - INFO - APPLY button found.
+2025-01-15 06:40:41,847 - loggin - INFO - Using regex pattern: (?i)(Python)
+2025-01-15 06:40:41,847 - loggin - INFO - Job 'npilabsupportcoopintern15481' does not match criteria. Skipping application.
+2025-01-15 06:40:41,848 - loggin - INFO - Closing job page.
+2025-01-15 06:40:41,913 - loggin - INFO - Closed the job page tab.
+2025-01-15 06:40:41,932 - loggin - INFO - Switched back to the main window.
+2025-01-15 06:40:41,933 - loggin - INFO - Processing job page.
+2025-01-15 06:40:43,742 - loggin - INFO - Retrieving company name...
+2025-01-15 06:40:43,754 - loggin - INFO - Retrieving position title...
+2025-01-15 06:40:43,767 - loggin - INFO - Retrieving job description...
+2025-01-15 06:40:43,783 - loggin - INFO - Retrieving application method...
+2025-01-15 06:40:43,898 - loggin - INFO - Checking for the APPLY button.
+2025-01-15 06:40:53,917 - loggin - INFO - No APPLY button found for userterminalengineeringcoop. Possible duplicate application. Closing page.
+2025-01-15 06:40:53,919 - loggin - INFO - Closing job page.
+2025-01-15 06:40:53,974 - loggin - INFO - Closed the job page tab.
+2025-01-15 06:40:53,988 - loggin - INFO - Switched back to the main window.
+2025-01-15 06:40:53,988 - loggin - INFO - Processing job page.
+2025-01-15 06:40:55,840 - loggin - INFO - Retrieving company name...
+2025-01-15 06:40:55,855 - loggin - INFO - Retrieving position title...
+2025-01-15 06:40:55,869 - loggin - INFO - Retrieving job description...
+2025-01-15 06:40:55,882 - loggin - INFO - Retrieving application method...
+2025-01-15 06:40:56,001 - loggin - INFO - Checking for the APPLY button.
+2025-01-15 06:41:06,015 - loggin - INFO - No APPLY button found for onboardpayloadembeddedsoftwareengineeringcoop. Possible duplicate application. Closing page.
+2025-01-15 06:41:06,015 - loggin - INFO - Closing job page.
+2025-01-15 06:41:06,073 - loggin - INFO - Closed the job page tab.
+2025-01-15 06:41:06,088 - loggin - INFO - Switched back to the main window.
+2025-01-15 06:41:06,088 - loggin - INFO - Processing job page.
+2025-01-15 06:41:08,497 - loggin - INFO - Retrieving company name...
+2025-01-15 06:41:08,507 - loggin - INFO - Retrieving position title...
+2025-01-15 06:41:08,518 - loggin - INFO - Retrieving job description...
+2025-01-15 06:41:08,528 - loggin - INFO - Retrieving application method...
+2025-01-15 06:41:08,633 - loggin - INFO - Checking for the APPLY button.
+2025-01-15 06:41:08,643 - loggin - INFO - APPLY button found.
+2025-01-15 06:41:08,644 - loggin - INFO - Using regex pattern: (?i)(Python)
+2025-01-15 06:41:08,644 - loggin - INFO - Job 'systemengineering' does not match criteria. Skipping application.
+2025-01-15 06:41:08,644 - loggin - INFO - Closing job page.
+2025-01-15 06:41:08,710 - loggin - INFO - Closed the job page tab.
+2025-01-15 06:41:08,718 - loggin - INFO - Switched back to the main window.
+2025-01-15 06:41:08,720 - loggin - INFO - Processing job page.
+2025-01-15 06:41:10,449 - loggin - INFO - Retrieving company name...
+2025-01-15 06:41:10,462 - loggin - INFO - Retrieving position title...
+2025-01-15 06:41:10,474 - loggin - INFO - Retrieving job description...
+2025-01-15 06:41:10,489 - loggin - INFO - Retrieving application method...
+2025-01-15 06:41:10,608 - loggin - INFO - Checking for the APPLY button.
+2025-01-15 06:41:20,612 - loggin - INFO - No APPLY button found for cloudsoftwareengineercoopposition. Possible duplicate application. Closing page.
+2025-01-15 06:41:20,612 - loggin - INFO - Closing job page.
+2025-01-15 06:41:20,668 - loggin - INFO - Closed the job page tab.
+2025-01-15 06:41:20,685 - loggin - INFO - Switched back to the main window.
+2025-01-15 06:41:20,686 - loggin - INFO - Processing job page.
+2025-01-15 06:41:22,489 - loggin - INFO - Retrieving company name...
+2025-01-15 06:41:22,501 - loggin - INFO - Retrieving position title...
+2025-01-15 06:41:22,512 - loggin - INFO - Retrieving job description...
+2025-01-15 06:41:22,523 - loggin - INFO - Retrieving application method...
+2025-01-15 06:41:22,643 - loggin - INFO - Checking for the APPLY button.
+2025-01-15 06:41:22,655 - loggin - INFO - APPLY button found.
+2025-01-15 06:41:22,655 - loggin - INFO - Using regex pattern: (?i)(Python)
+2025-01-15 06:41:22,656 - loggin - INFO - Job 'juniordataanalyst' does not match criteria. Skipping application.
+2025-01-15 06:41:22,656 - loggin - INFO - Closing job page.
+2025-01-15 06:41:22,721 - loggin - INFO - Closed the job page tab.
+2025-01-15 06:41:22,745 - loggin - INFO - Switched back to the main window.
+2025-01-15 06:41:22,745 - loggin - INFO - Processing job page.
+2025-01-15 06:41:24,614 - loggin - INFO - Retrieving company name...
+2025-01-15 06:41:24,628 - loggin - INFO - Retrieving position title...
+2025-01-15 06:41:24,646 - loggin - INFO - Retrieving job description...
+2025-01-15 06:41:24,658 - loggin - INFO - Retrieving application method...
+2025-01-15 06:41:24,811 - loggin - INFO - External job application found via URL. Saving description and closing page.
+2025-01-15 06:41:24,811 - loggin - INFO - Saving job description for: coopstudentplanning15732
+2025-01-15 06:41:24,815 - loggin - INFO - Job description saved to: C:\Users\simon\Desktop\Code_2025\carleton_cheese\automating_my_job_applications\new_beginings\./data_folder/output/ExternalApplications\coopstudentplanning15732.txt
+2025-01-15 06:41:24,816 - loggin - INFO - Closing job page.
+2025-01-15 06:41:24,884 - loggin - INFO - Closed the job page tab.
+2025-01-15 06:41:24,926 - loggin - INFO - Switched back to the main window.
+2025-01-15 06:41:24,927 - loggin - INFO - Processing job page.
+2025-01-15 06:41:26,799 - loggin - INFO - Retrieving company name...
+2025-01-15 06:41:26,816 - loggin - INFO - Retrieving position title...
+2025-01-15 06:41:26,831 - loggin - INFO - Retrieving job description...
+2025-01-15 06:41:26,842 - loggin - INFO - Retrieving application method...
+2025-01-15 06:41:27,012 - loggin - INFO - Checking for the APPLY button.
+2025-01-15 06:41:27,024 - loggin - INFO - APPLY button found.
+2025-01-15 06:41:27,025 - loggin - INFO - Using regex pattern: (?i)(Python)
+2025-01-15 06:41:27,025 - loggin - INFO - Job 'leosatellitebusandsystemsengineeringcoop' matches criteria. Initiating application process.
+2025-01-15 06:41:45,623 - loggin - INFO - Cover letter created and saved for: telesathumanresourcesleosatellitebusandsystemsengineeringcoopcoverletter at C:\Users\simon\Desktop\Code_2025\carleton_cheese\automating_my_job_applications\new_beginings\data_folder\output\tailored_cover_letters\telesathumanresourcesleosatellitebusandsystemsengineeringcoopcoverletter.pdf
+2025-01-15 06:41:45,623 - loggin - INFO - Uploading cover letter for: telesathumanresourcesleosatellitebusandsystemsengineeringcoopcoverletter
+2025-01-15 06:41:51,899 - loggin - INFO - waiting for the file to upload
+2025-01-15 06:41:56,611 - loggin - INFO - Successfully uploaded cover letter for: telesathumanresourcesleosatellitebusandsystemsengineeringcoopcoverletter
+2025-01-15 06:41:56,612 - loggin - INFO - Cover letter file path: C:\Users\simon\Desktop\Code_2025\carleton_cheese\automating_my_job_applications\new_beginings\data_folder\output\tailored_cover_letters\telesathumanresourcesleosatellitebusandsystemsengineeringcoopcoverletter.pdf
+2025-01-15 06:41:56,616 - loggin - INFO - Cover letter for telesathumanresourcesleosatellitebusandsystemsengineeringcoopcoverletter has been uploaded.
+2025-01-15 06:41:56,616 - loggin - INFO - Creating and sending application package for: telesathumanresourcesleosatellitebusandsystemsengineeringcoopcoverletter
+2025-01-15 06:41:56,626 - loggin - INFO - Current page title: Carleton MySuccess - MyAccount - Co-op Program - Co-op Jobs
+2025-01-15 06:41:58,795 - loggin - INFO - Application package has been successfully sent for: telesathumanresourcesleosatellitebusandsystemsengineeringcoopcoverletter. Good luck!
+2025-01-15 06:41:58,801 - loggin - INFO - Confirmed that the application package for telesathumanresourcesleosatellitebusandsystemsengineeringcoopcoverletter was sent.
+2025-01-15 06:41:58,802 - loggin - INFO - Successfully applied for the job.
+2025-01-15 06:41:58,802 - loggin - INFO - Processed job: telesathumanresourcesleosatellitebusandsystemsengineeringcoopcoverletter
+2025-01-15 06:41:58,863 - loggin - INFO - Processing job page.
+2025-01-15 06:42:00,982 - loggin - INFO - Retrieving company name...
+2025-01-15 06:42:00,998 - loggin - INFO - Retrieving position title...
+2025-01-15 06:42:01,011 - loggin - INFO - Retrieving job description...
+2025-01-15 06:42:01,025 - loggin - INFO - Retrieving application method...
+2025-01-15 06:42:01,142 - loggin - INFO - Checking for the APPLY button.
+2025-01-15 06:42:01,155 - loggin - INFO - APPLY button found.
+2025-01-15 06:42:01,155 - loggin - INFO - Using regex pattern: (?i)(Python)
+2025-01-15 06:42:01,156 - loggin - INFO - Job 'softwaredeveloperidsystemscoop' does not match criteria. Skipping application.
+2025-01-15 06:42:01,156 - loggin - INFO - Closing job page.
+2025-01-15 06:42:01,222 - loggin - INFO - Closed the job page tab.
+2025-01-15 06:42:01,237 - loggin - INFO - Switched back to the main window.
+2025-01-15 06:42:01,237 - loggin - INFO - Processing job page.
+2025-01-15 06:42:03,628 - loggin - INFO - Retrieving company name...
+2025-01-15 06:42:03,641 - loggin - INFO - Retrieving position title...
+2025-01-15 06:42:03,654 - loggin - INFO - Retrieving job description...
+2025-01-15 06:42:03,665 - loggin - INFO - Retrieving application method...
+2025-01-15 06:42:03,770 - loggin - INFO - Checking for the APPLY button.
+2025-01-15 06:42:03,781 - loggin - INFO - APPLY button found.
+2025-01-15 06:42:03,782 - loggin - INFO - Using regex pattern: (?i)(Python)
+2025-01-15 06:42:03,782 - loggin - INFO - Job 'softwaredevelopmentenvironmentanddevopsdeveloper' matches criteria. Initiating application process.
