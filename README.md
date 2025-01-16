@@ -124,7 +124,7 @@ Follow these simple steps to get MySuccessAutomation up and running:
 
 ```bash
 git clone https://github.com/yourusername/MySuccessAutomation.git
-cd MySuccessAutomation
+cd MySuccessAutomation # make sure your terminal is open in the corrent folder)
 ```
 
 **2. Set Up a Virtual Environment (Recommended):**
@@ -144,7 +144,7 @@ pip install -r requirements.txt
 **4. Run MySuccessAutomation:**
 
 ```bash
-python main.py
+python auto_apply.py
 ```
 
 ---
