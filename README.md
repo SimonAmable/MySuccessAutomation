@@ -2,7 +2,7 @@
 
 ## How finish 100 applications in under 3 minutes:
 # MAKE VIDEO AND PUT VIDEO LINK SIMON
-(for now please read this readME.md for instructions and message me if you need any help, video tutorial comming very soon. ALSO give this github project a 🌟 while your at the top of the page or if you found it useful in the end ;) 
+(for now please read this readME.md for instructions and message me if you need any help, video tutorial comming very soon. ALSO this project is completely free and took a lot of time tbh so give this github project a 🌟 while your at the top of the page or if you found it useful in the end ;) 
 
 ## Supercharge Your Carleton Co-op Job Search: Introducing MySuccessAutomation 🌟
 
