@@ -20,13 +20,13 @@ from tailor_cover_letter import make_and_save_cv_from_job_desc
 from dotenv import find_dotenv, load_dotenv
 from loggin import print
 # Initialize and update configurations with personal information
-configs = load_config()
-configs = update_config_with_personal_info(configs)
+# configs = load_config()
+# configs = update_config_with_personal_info(configs)
 
 
 
-print("Configurations loaded successfully:")
-print(configs)
+# print("Configurations loaded successfully:")
+# print(configs)
 
 from utils import JobToID
 
@@ -298,7 +298,8 @@ def main():
 
     configs = load_config()
     # Incorporate personal information into the configurations
-    configs["personal_info"] = get_personal_info_from_resume()
+    # configs["personal_info"] = get_personal_info_from_resume()
+    configs = update_config_with_personal_info(configs)
     print("Updated configurations with personal information:")
     print(configs)
     print("Debugging: Configurations loaded successfully.")
