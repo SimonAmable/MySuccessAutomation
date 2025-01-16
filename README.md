@@ -172,8 +172,8 @@ I'm dedicated to continuously enhancing MySuccessAutomation (granted i'm working
 
 *   **Broader Format Support:** Add compatibility for other file formats, such as `.docx`.
 *   **Resume Customization:** Automatically tailor your resume to align with each job description's specific requirements on MySuccess.
-*   **Enhanced AI:** Improve AI models usage for custom job matching, better cover letter generation, and application submission capabilities within the MySuccess platform.
-*   
+*   **Enhanced AI:** Improve LLM models usage for custom job matching, better cover letter generation, and application submission capabilities within the MySuccess platform.
+*   might have to be next year folks just depends on if i get feedback and if people use it :)
 ---
 
 ## I'm Here to Help: Support and Assistance 🤝
