@@ -110,41 +110,11 @@ CARLETON_PASSWORD: "MySuperSecurePassword"  # Replace with your Carleton passwor
 GOOGLE_API_KEY: "AIzaSyDOC-your_key_here-V2vB"  # Replace with your Google API key
 
 
-Okay, here's a revised version of your GitHub README sections, incorporating better formatting and making it more engaging for readers:
-
-# README Sections
-
-## From Search to Submission on MySuccess: A Real-World Example 📄
-
-Let's paint a picture: you're a talented computer science student at Carleton University, eager to find a challenging software development co-op. This is where MySuccessAutomation comes in to transform your job hunt!
-
-Here's how it works:
-
-**1. Define Your Ideal Job:**
-
-*   Start by specifying your desired job keywords in the `personal_information.yaml` file. Think along the lines of: "Python," "Software Development," "Machine Learning," "AWS," and "Agile."
-
-**2. Smart Job Discovery:**
-
-*   MySuccessAutomation diligently searches Carleton's MySuccess portal, pinpointing co-op postings that align perfectly with your specified keywords and experience.
-
-**3. AI-Crafted Cover Letters:**
-
-*   This is where the magic happens! For each promising job on MySuccess, our AI engine dives deep into the job description and your resume. 
-*   The result? A compelling, tailored cover letter that showcases your most relevant skills and experience. Imagine highlighting your "extensive experience in developing Python-based applications" or your "proven expertise in deploying machine learning models on AWS using Agile methodologies."
-
-**4. Effortless Application Submission:**
-
-*   MySuccessAutomation takes the reins, seamlessly navigating to the application page on MySuccess. 
-*   It auto-fills required fields with your information, attaches your resume and custom cover letter, and then submits the application for you.
-
-**The Outcome:** Say goodbye to the tedious application grind! You're now free to focus on what truly matters: nailing those interviews and securing your dream co-op placement.
-
 > **Personal Note from the Developer:**
->
-> Apologies for the delayed release. Juggling a major project, school, and work commitments has been quite the challenge. I haven't personally used MySuccessAutomation in 2024, but only because I'm not in the co-op program this year for unrelated reasons. I'm open to opportunities for the summer of 2025 though! #SomeonePleaseHireMeForTheSummerOf2025 😉
+Apologies for the delayed release. Juggling a major project i've yet to release, school, and work commitments has been quite the challenge. I haven't personally used MySuccessAutomation in 2024, but only because I'm not in the co-op program this year for unrelated reasons. For any employeers or people willing to refer me : I'm open to work opportunities for the summer of 2025 though! #SomeonePleaseGiveMeAJob
 
 ---
+
 
 ## Installation and Execution: Step-by-Step Instructions 🌐
 
