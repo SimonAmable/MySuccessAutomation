@@ -181,6 +181,7 @@ I'm dedicated to continuously enhancing MySuccessAutomation (granted i'm working
 Need help with anything or have questions? I'm here for you! Please email me of contact one of my social medias for the fastest reply
 
 *   **Email:** Simonamable@gmail.com
+*   **Discord:** Simon3421
 *   **GitHub Issues:** [Submit an issue](https://github.com/Simonamable/MySuccessAutomation/issues)
 
 ---
