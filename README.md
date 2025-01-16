@@ -32,7 +32,8 @@ Ready to take your co-op job search to the next level? Here's how to get started
 2. **Organize Your Files:**
     *   **All important information you must provide is in the folder "./data_folder/input/"**.
     *   Place your PDF resume in the `/resume` folder. MySuccessAutomation will intelligently extract personal information about you, like skills, experience, education, and more, to personalize your applications.
-3. **Configure Your Preferences:** `personal_information.yaml`
+### 3. Configure Your Preferences: `personal_information.yaml`
+
 The `personal_information.yaml` file is where you provide your personal details and customize your job search preferences. This file is crucial for tailoring your applications and cover letters. Here's a breakdown of each field:
 
 *   **`keywords`**:
@@ -60,6 +61,7 @@ The `personal_information.yaml` file is where you provide your personal details 
 *   Do not delete any fields (keys) in the `./data_folder/input/personal_information.yaml` file, even if you don't want to use them.
 *   If you don't want to include a particular field, leave its value blank (e.g., `portfolio: ""`).
 *   Ensure that the file is correctly formatted according to YAML syntax. You can use online YAML validators to check for errors.
+
 *   **Example:**
 
     ```yaml
@@ -77,6 +79,9 @@ The `personal_information.yaml` file is where you provide your personal details 
     github: "https://github.com/yourusername"
     portfolio: ""
     ```
+**Example of Corrected YAML (secrets.yaml):**
+
+```markdown
 ### 4. Providing Your Credentials Securely: `secrets.yaml`
 
 The `secrets.yaml` file is where you store sensitive credentials required for MySuccessAutomation to operate. **Your security is a top priority.** This information is stored locally on your machine and is never transmitted externally.
@@ -109,7 +114,6 @@ Here's a breakdown of the required fields:
 CARLETON_USERNAME: "BugsBunny"  # Replace with your Carleton username
 CARLETON_PASSWORD: "MySuperSecurePassword"  # Replace with your Carleton password
 GOOGLE_API_KEY: "AIzaSyDOC-your_key_here-V2vB"  # Replace with your Google API key
-
 
 > **Personal Note from the Developer:**
 Apologies for the delayed release. Juggling a major project i've yet to release, school, and work commitments has been quite the challenge. I haven't personally used MySuccessAutomation in 2024, but only because I'm not in the co-op program this year for unrelated reasons. For any employeers or people willing to refer me : I'm open to work opportunities for the summer of 2025 though! #SomeonePleaseGiveMeAJob
