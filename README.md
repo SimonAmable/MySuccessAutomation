@@ -63,7 +63,7 @@ The `personal_information.yaml` file is where you provide your personal details 
 *   If you don't want to include a particular field, leave its value blank (e.g., `portfolio: ""`).
 *   Ensure that the file is correctly formatted according to YAML syntax. You can use online YAML validators to check for errors.
 
-*   **Example:**
+*   **Example `personal_info.yaml`:**
 
     ```yaml
     keywords:
