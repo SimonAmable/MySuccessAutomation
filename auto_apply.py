@@ -225,7 +225,7 @@ def process_job_page(driver, link_element):
     
     try:
         print("Checking for the APPLY button.")
-        button_element = WebDriverWait(driver, 5).until(lambda x: x.find_element(By.XPATH, "//body//main//div//div//div//div//div//div//button[@type='button'][normalize-space()='APPLY']"))
+        button_element = WebDriverWait(driver, 1).until(lambda x: x.find_element(By.XPATH, "//body//main//div//div//div//div//div//div//button[@type='button'][normalize-space()='APPLY']"))
         if button_element:
             print("APPLY button found.")
     except TimeoutException:
