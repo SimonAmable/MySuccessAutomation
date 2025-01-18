@@ -27,9 +27,9 @@ Are you a Carleton University student tired of spending countless hours searchin
 
 Ready to take your co-op job search to the next level? Here's how to get started:
 
-1. **Prepare the Documents:**
+### 1. **Prepare the Documents:**
     *   **Crucially**, have your latest **resume** and **transcript** already uploaded to MySuccess. The script currently only tailors your cover letter for each application and uses your most recently uploaded resume and transcript from MySuccess.
-2. **Organize Your Files:**
+### 2. **Organize Your Files:**
     *   **All important information you must provide is in the folder "./data_folder/input/"**.
     *   Place your PDF resume in the `/resume` folder. MySuccessAutomation will intelligently extract personal information about you, like skills, experience, education, and more, to personalize your applications.
 
