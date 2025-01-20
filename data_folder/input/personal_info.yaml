@@ -1,30 +1,59 @@
-# ATTENTION!!! PLEASE READ ALL COMMENTS HERE AND CUSTOMIZE VALUES BEFORE RUNNING TO ENSURE YOU UNDERSTAND HOW TO USE THIS FILE.
+#==================================
+# JOB SEARCH CONFIGURATION
+#==================================
 
-# YAML version of Job Preferences for easy commenting and updates
+keywords:
+  - ""
+  # Add keywords that match your desired job titles/skills like you would search on a job board
+  # The script will search for jobs containing these terms
+  # Examples: "Software Engineer", "Data Science", "DevOps"
+  # Leave empty [] for no keyword filtering
+# Example keywords:
+#   - "Python"
+#   - "AI"
+#   - "Automation"
 
-# IF YOU DO NOT WANT TO INCLUDE ANY FILTERS EITHER DELETE THEM OR LEAVE BLANK ("")
+#==================================
+# PERSONAL INFORMATION
+#==================================
 
-# Job search parameters
-keywords:    
-        # Example keywords related to Dwight's interests and skills:
-# - "Sales"
-# - "Beet Farming"
-# - "Security"
-# - "Martial Arts"
-# - "Paper Sales"
-# - "Assistant Regional Manager"
-# - "Assistant to the Regional Manager"
+# Basic Contact Details
+# These fields are required for your cover letter generation
+name: ""                  # Your first name
+surname: ""              # Your last name
+email: ""               # Professional email address
+phone: ""               # Format: XXX-XXX-XXXX
+# Professional Profiles
+# Leave blank if you don't want to include in cover letter
+linkedin: ""            # Full URL: https://www.linkedin.com/in/your-profile
+github: ""             # Full URL: https://github.com/your-username
+portfolio: ""          # Your personal website/portfolio URL
 
-# Personal details for tailoring cover letter applications. 
-# Your skills will be extracted from your resume or can be input here (not implemented yet).
-name: "Dwight"                # Replace with your first name
-surname: "Schrute"             # Replace with your last name
-email: "DSchrute@dundermifflin.com"  # Replace with your actual email
-phone: "570-555-0149"          # Replace with your actual phone number
-linkedin: "https://www.linkedin.com/in/dwightschrute/"  # Replace with your actual LinkedIn URL
-github: ""              # Replace with your actual GitHub URL
-portfolio: "www.schrutefarms.com"            # Replace with your actual portfolio URL
+#==================================
+# USAGE NOTES
+#==================================
+# 1. All fields marked with (*) are required
+# 2. Leave optional fields blank ("") to exclude them
+# 3. Don't delete any keys - just leave values empty
+# 4. Keywords are case-insensitive and are matched with an OR condition (any keyword match)
+# 5. Make sure file is saved and all information is valid before running the script
 
-# PLEASE LEAVE FIELDS BLANK BUT DON'T DELETE THEM if you do not want to include them in your cover letter.
 
+
+
+
+
+
+
+#==================================
+# ADDITION PERSONAL INFORMATION
+#==================================
+# Add any additional personal information you want to include in your cover letter
+# This can be used to add more context to your cover letter
+# For example, you can add your extra jobs, Certifications, or any other relevant information that is not included in your resume
+# Leave blank if you don't want to include additional information 
+# add some information about yourself that you want to include in your cover letter
+additional_info: |
+  I am a passionate software engineer with a strong background in AI and automation. I have experience working with Python, TensorFlow, and AWS. I am excited about the opportunity to contribute to your team and help drive innovation in the field of AI. I am confident that my skills and experience make me a great fit for this role. I look forward to the opportunity to discuss how I can contribute to your team. Thank you for considering my application.
+  
 

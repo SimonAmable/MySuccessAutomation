@@ -4,33 +4,16 @@ import os
 #  Load the environment variables from the .env file
 import re
 
-from dotenv import load_dotenv
+from dotenv.main import load_dotenv
 from pathlib import Path
 import json
 
 # load_dotenv()
 # ---------- HELPER FUNCTION ----------
 # Function to extract personal information from a resume
-from langchain_community.document_loaders import PyPDFLoader
-def get_document_text(file_path: str) -> str:
-    """
-    Extracts text from PDF or DOCX files.
-    
-    Parameters:
-        file_path (str): Path to the PDF or DOCX file
-        
-    Returns:
-        str: Combined text from the document
-    """
-    if file_path.lower().endswith('.pdf'):
-        loader = PyPDFLoader(file_path)
-    elif file_path.lower().endswith('.docx'):
-        raise ValueError("Unsupported file format. Only PDF currently supported.")
-    else:
-        raise ValueError("Unsupported file format. Only PDF and DOCX are supported.")
-    
-    pages = loader.load()
-    return ' '.join(page.page_content for page in pages)
+from utils import get_document_text
+
+
 # def load_dotenv_with_errors():
 #     # Get env file path
 #     dotenv_path = os.path.join(os.path.dirname(__file__), '..', 'data_folder', 'input', '.env')

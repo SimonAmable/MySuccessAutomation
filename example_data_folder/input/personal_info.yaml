@@ -6,9 +6,9 @@
 
 # Job search parameters
 keywords:                     # Keywords to filter jobs.
-  - "Python"                  # Example keyword. Add more job-related keywords here, one per line. 
-                              # Be as specific or general as you like. Examples:
-                              # - "Software Engineer"
+  - "AI"                  # Example keyword. Add more job-related keywords here, one per line. 
+  - "Automation"                            # Be as specific or general as you like. Examples:
+  - "Python"                            # - "Software Engineer"
                               # - "Data Science"
                               # - "Machine Learning"
                               # - "AWS"

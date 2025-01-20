@@ -29,6 +29,7 @@ configs = update_config_with_personal_info(configs)
 # print(configs)
 
 from utils import JobToID
+import json
 
 def initialize_driver():
     """Set up and return the Chrome WebDriver with specified window size."""
@@ -218,7 +219,7 @@ def process_job_page(driver, link_element):
     
     urlFound = re.search(urlRegex, full_job_desc, flags=re.IGNORECASE)
     if urlFound and not ("Use this system for applications" in applicationMethod.text):
-        print("External job application found via URL. Saving description and closing page.")
+        print("External job application found via URL (WE CANT APPLY TO THIS JOB). Saving description and closing page.")
         save_job_description(full_job_desc, documentName)
         close_job_page(driver)
         return
@@ -245,7 +246,27 @@ def process_job_page(driver, link_element):
         print(f"Job '{documentName}' matches criteria. Initiating application process.")
         button_element.click()  # Click the APPLY button
         WebDriverWait(driver, 10).until(lambda d: d.title)
+        # Check if cover letter is already created by checking file name in the list of documents
+        output_folder = './data_folder/output/tailored_cover_letters/'
+        if not os.path.exists(output_folder):
+            os.makedirs(output_folder)
+        # Get list of files in tailered_cover_letters
+        output_folder_files = os.listdir(output_folder)
+        if documentName in output_folder_files:
+            print(f"Cover letter for '{documentName}' has already been automaicly created. Starting application.")
+            # upload_cover_letter(driver, document_name_without_extension, cover_letter_full_file_path_pdf)
+            create_and_send_application_package(driver, document_name_without_extension)
+            close_job_page(driver)
+            return
+        #Get list of files in tailered_cover_letters
+        if documentName in driver.page_source:
+            print(f"Cover letter for '{documentName}' already uploaded. Skipping application.")
+            close_job_page(driver)
+            return
+        # cover_letter_already_uploaded = False
         
+
+
         # Create and upload cover letter
         cover_letter_full_file_path = make_and_save_cv_from_job_desc(job_description_object,configs,configs['personal_information'])
         documentName = os.path.splitext(os.path.basename(cover_letter_full_file_path))[0]
@@ -253,7 +274,6 @@ def process_job_page(driver, link_element):
         finished_file_directory = os.path.dirname(cover_letter_full_file_path)
         cover_letter_full_file_path_pdf = cover_letter_full_file_path.replace(".docx", ".pdf")
         print(f"Cover letter created and saved for: {documentName} at {cover_letter_full_file_path_pdf}")
-        
         upload_cover_letter(driver, document_name_without_extension, cover_letter_full_file_path_pdf)
         create_and_send_application_package(driver, document_name_without_extension)
     else:
@@ -282,11 +302,26 @@ def save_job_description(description, file_title):
     
     print(f"Job description saved to: {file_path}")
 
+def save_job_description_to_json(description, file_title):
+    """Save the job description to a JSON file within the external_appliction directory."""
+    print(f"Saving job description for: {file_title}")
+    folder_path = os.path.join(os.getcwd(), './data_folder/output/external_appliction')  # Directory to save descriptions
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)  # Create the directory if it doesn't exist
+    
+    file_name = file_title.replace(' ', '_').replace('/', '').replace("-", "_")  # Sanitize file name
+    file_path = os.path.join(folder_path, f"{file_name}.json")
+    
+    with open(file_path, 'w') as file:
+        json.dump(description, file, indent=4)
+    
+    print(f"Job description saved to: {file_path}")
+
 def main():
     """Main function to execute the job application automation process."""
     print("Starting the job application automation script.")
     dotenv_path = os.path.join(os.path.dirname(__file__), '..', 'data_folder', 'input', '.env')
-    load_dotenv(dotenv_path)
+    # load_dotenv(dotenv_path)
     
     # Retrieve login credentials from environment variables
     # CARLETON_USERNAME = os.getenv("MY_USERNAME")

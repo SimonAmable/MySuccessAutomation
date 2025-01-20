@@ -7,3 +7,14 @@ __pycache__
 *.log
 # Ignore temp word files
 ~$*
+
+#ignore personal input files (just resume)
+resume.pdf
+
+
+# ignore testing folder
+testing/
+
+# ignore all .pyc files (build)
+*.spec
+build/

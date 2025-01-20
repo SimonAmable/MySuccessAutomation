@@ -1,6 +1,11 @@
 import docx
 from docx import Document
 import re
+
+# import fitz  # This is PyMuPDF
+import pymupdf4llm
+
+
 # custom imports
 # Credit for add_hyperlink & get_or_create_hyperlink_style : https://stackoverflow.com/questions/47666642/adding-an-hyperlink-in-msword-by-using-python-docx
 # from configs import load_config
@@ -63,5 +68,56 @@ def get_or_create_hyperlink_style(d):
 def JobToID(job_position: str) -> str:
     """Convert job position to a lowercase, alphanumeric ID."""
     return "".join(c.lower() for c in job_position if c.isalnum())
+
+
+
+# from langchain_community.document_loaders import PyPDFLoader
+
+# def get_document_text(file_path: str) -> str:
+#     """
+#     Extracts text from PDF or DOCX files.
+    
+#     Parameters:
+#         file_path (str): Path to the PDF or DOCX file
+        
+#     Returns:
+#         str: Combined text from the document
+#     """
+#     if file_path.lower().endswith('.pdf'):
+#         loader = PyPDFLoader(file_path)
+#     elif file_path.lower().endswith('.docx'):
+#         raise ValueError("Unsupported file format. Only PDF currently supported.")
+#     else:
+#         raise ValueError("Unsupported file format. Only PDF and DOCX are supported.")
+    
+#     pages = loader.load()
+#     return ' '.join(page.page_content for page in pages)
+
+# convert the document to markdown
+# Write the text to some file in UTF8-encoding
+# import pathlib
+# pathlib.Path("output.md").write_bytes(md_text.encode())
+
+def get_document_text(file_path: str) -> str:
+    """
+    Converts PDF file to markdown format.
+    
+    Parameters:
+        file_path (str): Path to the PDF file
+        
+    Returns:
+        str: Markdown text from the document
+    """
+    if not file_path.lower().endswith('.pdf'):
+        raise ValueError("Unsupported file format. Only PDF is supported.")
+    
+    md_text = pymupdf4llm.to_markdown(file_path)
+    md_text = md_text.encode('utf-8').decode('utf-8')
+    return md_text
+
+#test the function
+# document_path = "./data_folder/input/resume/resume.pdf"
+# document_md = get_document_markdown(document_path)
+# print(document_md)
 
 

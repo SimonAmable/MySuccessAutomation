@@ -166,101 +166,9 @@ def extract_job_information(job_description: str) -> JobInformation:
         )
     return job_info
 
-
-### ---------- Funciton for creating cover letter content ------------
-def create_tailored_cover_letter_content(job_description, resume):
-    cover_letter_prompt_template_c = ChatPromptTemplate([
-        ("system", "You are a professional career coach specializing in crafting concise and compelling cover letters that highlight a candidate's strengths and alignment with a specific job."),
-        ("user", """
-        Write a cover letter for the following job description and resume.
-
-        ## Requirements:
-        *   **Length:** Maximum three paragraphs.
-        *   **Tone:** Professional and enthusiastic, demonstrating genuine interest.
-        *   **Content:**
-            *   **Introduction:** Briefly introduce the candidate and express their interest in the specific role and company. Directly state the candidate's career objective as it relates to this position.
-            *   **Body:**
-                *   Highlight 2-3 key skills or experiences from the resume that are most relevant to the job description. Provide specific, quantifiable examples from the resume to showcase accomplishments related to these skills/experiences.
-                *   Connect the candidate's experience and goals to the company's mission, values, or recent achievements (if mentioned in the job description or easily inferable). Demonstrate that the candidate has researched the company.
-                *   Connect the candidate's experience and goals to the company's mission, values, or recent achievements (if mentioned in the job description or easily inferable). Demonstrate that the candidate has researched the company.
-  
-          *   **Conclusion:** Briefly reiterate the candidate's strong fit for the position and express enthusiasm for an interview.
-        *   **Formatting:** Use paragraphs only. Do not include a salutation, closing (e.g., "Sincerely"), or signature.
-        *   **Style:** 
-            * No placeholders (e.g., [Company Name], [Skill]).
-            * Avoid generic statements. Tailor the letter specifically to the job description and resume content.
-            * Use strong action verbs and positive language.
-
-        ## Input:
-        *   **Job Description:** {job_description}
-        *   **Resume:** {resume}
-
-        ## Output:
-        Provide only the cover letter text. Do not include any explanations, analysis, or additional commentary.
-
-        """)
-    ])
     ### ---------- Revised Function for Creating Cover Letter Content ------------
 def create_tailored_cover_letter_content(job_description, resume):
-    cover_letter_prompt_template_c = ChatPromptTemplate([
-        ("system", "You are a professional career coach specializing in crafting concise, compelling, and highly tailored cover letters that align a candidate's strengths with a specific job."), 
-        ("user", """
-        Write a customized cover letter for the following job description and resume.
-
-        ## Requirements:
-        *   **Length:** Maximum three paragraphs.
-        *   **Tone:** Professional and personable, demonstrating genuine enthusiasm and interest in the role and company.
-        *   **Content:**
-            *   **Introduction:** Start with a strong and personalized opening that introduces the candidate, states the position and company, and explains why the candidate is excited about the role. Mention a specific company value, mission, or recent achievement that resonates with the candidate.
-            *   **Body:**
-                *   Highlight 2-3 key accomplishments or skills from the resume that directly match the job requirements. Use specific, quantifiable examples to illustrate the candidate’s impact.
-                *   Connect the candidate's goals to the company’s mission, values, or projects, showing that the candidate has researched the company and is aligned with its objectives.
-            *   **Conclusion:** Reiterate why the candidate is an excellent fit for the position and express eagerness for an interview. Include a positive, forward-looking closing statement.
-        *   **Formatting:** Use clear, concise paragraphs. Avoid overly technical jargon or placeholders (e.g., [Company Name]).
-        *   **Style:** 
-            * Avoid generic phrases. Focus on tailoring the content specifically to the job description and resume.
-            * Use strong action verbs and an engaging narrative.
-            * Ensure a balance of technical and interpersonal skills to create a well-rounded impression.
-
-        ## Input:
-        *   **Job Description:** {job_description}
-        *   **Resume:** {resume}
-
-        ## Output:
-        Provide only the cover letter text. Avoid explanations, analysis, or placeholders in the output.
-
-        """)
-    ])
-### ---------- Revised Function for Creating Cover Letter Content ------------
-    cover_letter_prompt_template_d = ChatPromptTemplate([
-        ("system", "You are a professional career coach specializing in crafting concise, compelling, and highly tailored cover letters that align a candidate's strengths with a specific job."), 
-        ("user", """
-        Write a customized cover letter for the following job description and resume.
-
-        ## Requirements:
-        *   **Length:** Maximum three paragraphs.
-        *   **Tone:** Professional and personable, demonstrating genuine enthusiasm and interest in the role and company.
-        *   **Content:**
-            *   **Introduction:** Start with a strong and personalized opening that introduces the candidate, states the position and company, and explains why the candidate is excited about the role. Mention a specific company value, mission, or recent achievement that resonates with the candidate.
-            *   **Body:**
-                *   Highlight key accomplishments or skills from the resume that directly match the job requirements. Use specific, quantifiable examples to illustrate the candidate’s impact.
-                *   Connect the candidate's goals to the company’s mission, values, or projects, showing that the candidate has researched the company and is aligned with its objectives.
-            *   **Conclusion:** Reiterate why the candidate is an excellent fit for the position and express eagerness for an interview. Include a positive, forward-looking closing statement.
-        *   **Formatting:** Use clear, concise paragraphs. Avoid overly technical jargon or placeholders (e.g., [Company Name]).Use concise paragraphs. Do not include a salutation, closing (e.g., "Sincerely"), or signature.
-        *   **Style:** 
-            * Avoid generic phrases. Focus on tailoring the content specifically to the job description and resume.
-            * Use strong action verbs and an engaging narrative.
-            * Ensure a balance of technical and interpersonal skills to create a well-rounded impression.
-
-        ## Input:
-        *   **Job Description:** {job_description}
-        *   **Resume:** {resume}
-
-        ## Output:
-        Provide only the cover letter paragraph text. Avoid explanations, analysis, or placeholders in the output.
-
-        """)
-    ])
+    
     cover_letter_prompt_template_e = ChatPromptTemplate([
         ("system", "You are a professional career coach specializing in crafting concise, compelling, and highly tailored cover letters that align a candidate's strengths with a specific job."),   
         ("user", """
@@ -294,7 +202,7 @@ def create_tailored_cover_letter_content(job_description, resume):
     optimized_cover_letter = model.invoke(promt_for_optimized_cover_letter)
     #check for errores
     if "[" in optimized_cover_letter.content:
-        print("Error: Cover letter contains placeholders. Please revise the content/prompt to remove placeholders.")
+        print("Error: Cover letter may contain placeholders. Please revise the content/prompt to remove placeholders.")
     return optimized_cover_letter.content
 # use this personal_info json and the job_information json extracted from the job description to create a customized cover letter
 
