@@ -82,6 +82,7 @@ The `personal_information.yaml` file is where you provide your personal details 
     portfolio: ""
     ```
 
+
 ### 4. Providing Your Credentials Securely: `secrets.yaml`
 
 The `secrets.yaml` file is where you store sensitive credentials required for MySuccessAutomation to operate. **Your security is a top priority.** This information is stored locally on your machine and is never transmitted externally.
@@ -106,7 +107,7 @@ Here's a breakdown of the required fields:
 *   **Local Storage:** All data in `secrets.yaml` is processed and stored **exclusively on your local machine**.
 *   **No External Transmission:** Your credentials are **never sent to any external servers or services.**
 *   **.gitignore:** The `secrets.yaml` file is included in the project's `.gitignore` file. This prevents it from being accidentally committed to your Git repository, ensuring your credentials remain private.
-*   **Responsibility** While this project takes measures to protect your data locally, always be cautious when handling sensitive information.
+*   **Responsibility** While this project takes measures to protect your data locally, always be cautious when handling sensitive information its not my fault if you lose yours.
 
 **Example `secrets.yaml`:**
 
@@ -193,7 +194,8 @@ python menu_web_ui_gradio.py
     *   Ensure you're using a compatible Python version (Python 3.8+ is recommended) and have an updated `pip`: `pip install --upgrade pip`.
 *   **Application Submission Errors:**
     *   **Important:** This tool is designed **specifically for Carleton University's MySuccess co-op portal**. Ensure you are using it only for applications on that platform.
-
+*   **Any Other Errors:**
+    *   **Contacnt Me:** Contact me anywhere you can find me and ill get back to you with help asap.
 ---
 
 ## The Future is Bright: Our Development Roadmap 🛤️
@@ -237,17 +239,18 @@ Here's how you can contribute:
 2. **Create a new branch** for your feature or bug fix.
 3. **Submit a pull request** with a clear description of your changes.
 
-If you dont wanna do anything technical and want some help dont hesitate to send me a email at [simonamable@gmail.com](mailto:simonamable@gmail.com), or message me on discord @ : simon3421
+If you dont wanna do anything technical and wanna help dont hesitate to send me feedback to my email at [simonamable@gmail.com](mailto:simonamable@gmail.com), or message me on discord @ : simon3421
 
 ---
 
 ## Giving Credit Where It's Due: Credits and Acknowledgements 📚
 
-*   **Inspiration:** The architectural redesign of MySuccessAutomation was inspired by the innovative [AI Hawk](https://github.com/feder-cr/Jobs_Applier_AI_Agent)  (I read their README but havent used it yet because i got no time lolol #SomeonePleaseGiveMeAJob).
+*   **Inspiration:** The architectural redesign of MySuccessAutomation was inspired by the innovative [AI Hawk](https://github.com/feder-cr/Jobs_Applier_AI_Agent)  
 *   **A Heartfelt Thank You:** Big thanks to Adilet and all our amazing testers for their invaluable feedback and contributions.
 
 ---
+give this project a quick star if you found it useful 🙏
 
 ## License 🔒
 
-MySuccessAutomation is released under the MIT License. See the `LICENSE` file for more details. This project was made for educational purposes. The creator is not liable for anything.
+MySuccessAutomation is released under the MIT License. See the `LICENSE` file for more details. This project was made for educational purposes. The creator is not tryna be liable for anything.
