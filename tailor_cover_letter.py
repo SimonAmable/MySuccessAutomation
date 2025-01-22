@@ -45,25 +45,12 @@ if not os.environ.get("GOOGLE_API_KEY"):
 if "GOOGLE_API_KEY" in os.environ:
     model = ChatGoogleGenerativeAI(model="gemini-2.0-flash-exp", temperature=0, max_tokens=None, timeout=None, max_retries=2)
     print("Using Gemeni AI")
-else:
+elif "OPENAI_API_KEY" in os.environ:
     model = ChatOpenAI(model="gpt-4o-mini")
     print("Using OpenAI")
+else:
+    raise Exception("API key not found in environment variables. Please make sure you provide the API key for either Google or OpenAI.")
 
-# ---------- HELPER FUNCTION ----------
-# Function to extract personal information from a resume
-def get_all_pdf_text(pdf_path: str) -> str:
-    """
-    Extracts text from all pages of a PDF file.
-    
-    Parameters:
-        pdf_path (str): Path to the PDF file
-        
-    Returns:
-        str: Combined text from all pages of the PDF
-    """
-    loader = PyPDFLoader(pdf_path)
-    pages = loader.load()
-    return ' '.join(page.page_content for page in pages)
 
 # ------------- personal information extraction ----------------
 
@@ -420,7 +407,6 @@ def test_make_and_save_cv():
 #     else:
 #         raise FileNotFoundError(f"PDF file not found at {output_path}")
 
-
 # # Main
 # if __name__ == "__main__":
     
@@ -441,5 +427,3 @@ def test_make_and_save_cv():
 #     # cover_letter_text = create_tailored_cover_letter_content(job_description, personal_info)
 #     # doc = generate_tailored_cover_letter(json_job_description, personal_info, cover_letter_text)
 #     # save_document(doc, output_folder, base_filename, extension)
-
-

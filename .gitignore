@@ -10,7 +10,7 @@ __pycache__
 
 #ignore personal input files (just resume)
 resume.pdf
-
+user_data.yaml
 
 # ignore testing folder
 testing/

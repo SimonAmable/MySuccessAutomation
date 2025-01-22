@@ -19,9 +19,24 @@ def button_hover_leave(button):
 
 # Function to run scripts
 def run_script(script_name):
-    python_exe = sys.executable
-    subprocess.run([python_exe, script_name], shell=True)
-
+    try:
+        # Get absolute path to script
+        script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), script_name)
+        
+        if os.name == 'nt':  # Windows
+            # Use cmd /k to keep window open
+            cmd = ['cmd', '/k', sys.executable, script_path]
+            subprocess.Popen(cmd, 
+                           creationflags=subprocess.CREATE_NEW_CONSOLE,
+                           shell=False)
+        else:  # Unix
+            subprocess.Popen(['xterm', '-e', sys.executable, script_path])
+            
+        print(f"Launched {script_name} in new window")
+    except Exception as e:
+        print(f"Error launching script: {e}")
+        # Optional: show error in GUI
+        messagebox.showerror("Error", f"Failed to run {script_name}: {str(e)}")
 # Function to clear the Tkinter window
 def clear_window(window):
     for widget in window.winfo_children():

@@ -71,49 +71,52 @@ def JobToID(job_position: str) -> str:
 
 
 
-# from langchain_community.document_loaders import PyPDFLoader
 
-# def get_document_text(file_path: str) -> str:
-#     """
-#     Extracts text from PDF or DOCX files.
+from langchain_community.document_loaders import PyPDFLoader
+
+def get_document_text(file_path: str) -> str:
+    """
+    Extracts text from PDF or DOCX files.
     
-#     Parameters:
-#         file_path (str): Path to the PDF or DOCX file
+    Parameters:
+        file_path (str): Path to the PDF or DOCX file
         
-#     Returns:
-#         str: Combined text from the document
-#     """
-#     if file_path.lower().endswith('.pdf'):
-#         loader = PyPDFLoader(file_path)
-#     elif file_path.lower().endswith('.docx'):
-#         raise ValueError("Unsupported file format. Only PDF currently supported.")
-#     else:
-#         raise ValueError("Unsupported file format. Only PDF and DOCX are supported.")
+    Returns:
+        str: Combined text from the document
+    """
+    if file_path.lower().endswith('.pdf'):
+        loader = PyPDFLoader(file_path)
+    elif file_path.lower().endswith('.docx'):
+        raise ValueError("Unsupported file format. Only PDF currently supported.")
+    else:
+        raise ValueError("Unsupported file format. Only PDF and DOCX are supported.")
     
-#     pages = loader.load()
-#     return ' '.join(page.page_content for page in pages)
+    pages = loader.load()
+    return ' '.join(page.page_content for page in pages)
 
 # convert the document to markdown
 # Write the text to some file in UTF8-encoding
 # import pathlib
 # pathlib.Path("output.md").write_bytes(md_text.encode())
 
-def get_document_text(file_path: str) -> str:
-    """
-    Converts PDF file to markdown format.
+# def get_document_text(file_path: str) -> str:
+#     """
+#     Converts PDF file to markdown format.
     
-    Parameters:
-        file_path (str): Path to the PDF file
+#     Parameters:
+#         file_path (str): Path to the PDF file
         
-    Returns:
-        str: Markdown text from the document
-    """
-    if not file_path.lower().endswith('.pdf'):
-        raise ValueError("Unsupported file format. Only PDF is supported.")
+#     Returns:
+#         str: Markdown text from the document
+#     """
+#     if not file_path.lower().endswith('.pdf'):
+#         raise ValueError("Unsupported file format. Only PDF is supported.")
     
-    md_text = pymupdf4llm.to_markdown(file_path)
-    md_text = md_text.encode('utf-8').decode('utf-8')
-    return md_text
+#     md_text = pymupdf4llm.to_markdown(file_path)
+#     md_text = md_text.encode('utf-8').decode('utf-8')
+#     return md_text
+
+
 
 #test the function
 # document_path = "./data_folder/input/resume/resume.pdf"

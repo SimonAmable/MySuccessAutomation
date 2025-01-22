@@ -79,7 +79,7 @@ def get_regex_from_keywords():
 # print(regex_from_keywords)
 
 # Function to load the personal information configuration from the YAML file
-def load_config():
+def load_config(config_path="./data_folder/input/personal_info.yaml"):
     # Get the directory of the current script
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
@@ -141,9 +141,18 @@ def update_config_with_personal_info(config):
     return config
 
 
+def load_if_gradio_input():
+    configs = load_config('user_data.yaml')
+
+    #set the environment variables
+    os.environ["CARLETON_USERNAME"] = configs["CARLETON_USERNAME"]
+    os.environ["CARLETON_PASSWORD"] = configs["CARLETON_PASSWORD"]
+    os.environ["GOOGLE_API_KEY"] = configs["GOOGLE_API_KEY"]
+
+
 
 # funciton to load secrets
-def load_secrets():
+def load_secrets(secrets_path="./data_folder/input/secrets.yaml"):
     # Get the directory of the current script
     script_dir = os.path.dirname(os.path.abspath(__file__))
     # Construct the absolute path to secrets.json
