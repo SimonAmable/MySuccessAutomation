@@ -245,7 +245,8 @@ If you dont wanna do anything technical and wanna help dont hesitate to send me 
 
 ## Giving Credit Where It's Due: Credits and Acknowledgements 📚
 
-*   **Inspiration:** The architectural redesign of MySuccessAutomation was inspired by the innovative [AI Hawk](https://github.com/feder-cr/Jobs_Applier_AI_Agent)  
+*   **Inspiration:** The architectural redesign of MySuccessAutomation was inspired by the innovative [AI Hawk](https://github.com/feder-cr/Jobs_Applier_AI_Agent)
+*   **Inspiration:** This is a user focused abstraction of my previous project doing roughly the same thing :  
 *   **A Heartfelt Thank You:** Big thanks to Adilet and all our amazing testers for their invaluable feedback and contributions.
 
 ---
