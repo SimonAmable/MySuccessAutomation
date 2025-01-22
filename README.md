@@ -125,12 +125,12 @@ Apologies for the delayed release. Juggling a major project i've yet to release,
 ```markdown
 ## Installation and Execution: Step-by-Step Instructions 🌐
 
-Follow these simple steps to get MySuccessAutomation up and running:
+\#Follow these simple steps to get MySuccessAutomation up and running:
 
 **1. Clone the Repository:**
 
 ```bash
-git clone https://github.com/yourusername/MySuccessAutomation.git
+git clone https://github.com/Simonamable/MySuccessAutomation.git
 cd MySuccessAutomation # make sure your terminal is open in the correct folder)
 ```
 
