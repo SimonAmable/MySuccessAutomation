@@ -121,6 +121,7 @@ Apologies for the delayed release. Juggling a major project i've yet to release,
 
 ---
 
+```markdown
 ## Installation and Execution: Step-by-Step Instructions 🌐
 
 Follow these simple steps to get MySuccessAutomation up and running:
@@ -129,7 +130,7 @@ Follow these simple steps to get MySuccessAutomation up and running:
 
 ```bash
 git clone https://github.com/yourusername/MySuccessAutomation.git
-cd MySuccessAutomation # make sure your terminal is open in the corrent folder)
+cd MySuccessAutomation # make sure your terminal is open in the correct folder)
 ```
 
 **2. Set Up a Virtual Environment (Recommended):**
@@ -148,11 +149,39 @@ pip install -r requirements.txt
 
 **4. Run MySuccessAutomation:**
 
+You can now run MySuccessAutomation using one of the following methods:
+
+### **a. Terminal Interface:**
+
 ```bash
-python auto_apply.py
+python menu_terminal.py
 ```
 
----
+-   Follow the on-screen prompts to select the desired operation.
+
+### **b. GUI:**
+
+```bash
+python menu_gui.py
+```
+
+-   **Main Menu:** Choose from "Start the program," "View the README file," or "Exit the program."
+-   **Start the program:** Select "Automatically Apply to Jobs" or "Automatically Create Cover Letters."
+-   Click the buttons and follow any on-screen instructions.
+
+### **c. Web UI (Gradio):**
+
+```bash
+python menu_web_ui_gradio.py
+```
+
+-   **Main Menu:** Select from "Start the Program," "View the README File," or "Exit the Program."
+-   **Start the Program:** Choose "Automatically Apply to All Matching Jobs" or "Automatically Create Cover Letters."
+-   **Input Collection (Not fully implemented):** This tab is intended for entering your details to generate a YAML configuration file, but it's not yet functional. Please follow the manual configuration instructions in the main README.md.
+-   Click the buttons and follow any on-screen instructions in your web browser.
+
+**Note:** The Web UI (Gradio) is under development, and the "Input Collection" tab for automatic configuration is not yet functional.
+
 
 ## Troubleshooting: Your Quick Fix Guide 🛠️
 
