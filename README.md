@@ -124,12 +124,11 @@ Apologies for the delayed release. Juggling a major project i've yet to release,
 
 ---
 
-```markdown
 
 
 ## Installation and Execution: Step-by-Step Instructions 🌐
 
-\#Follow these simple steps to get MySuccessAutomation up and running:
+Follow these simple steps to get MySuccessAutomation up and running:
 
 **1. Clone the Repository:**
 
