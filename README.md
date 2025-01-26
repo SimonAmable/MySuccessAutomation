@@ -203,13 +203,7 @@ python menu_web_ui_gradio.py
 
 ## The Future is Bright: Our Development Roadmap 🛤️
 
-I'm dedicated to continuously enhancing MySuccessAutomation (granted i'm working on a different project currently). Here's what's on the horizon:
-
-*   **Broader Format Support:** Add compatibility for other file formats, such as `.docx`.
-*   **Resume Customization:** Automatically tailor your resume to align with each job description's specific requirements on MySuccess.
-*   **Enhanced AI:** Improve LLM models usage for custom job matching, better cover letter generation, and application submission capabilities within the MySuccess platform.
-*   might have to be next year folks just depends on if i get feedback and if people use it :)
----
+I will almost only make updates back on feedback from user like you because i am not able to use this script myself since i'm not it coop bt if you have anything you want me to add make a branch or send me a message at my contacts below or anywhere you can find me! 
 
 ## I'm Here to Help: Support and Assistance 🤝
 
@@ -226,7 +220,7 @@ Need help with anything or have questions? I'm here for you! Please email me of 
 *   **Q: Is MySuccessAutomation compatible with Mac, Windows, and Linux?**
     *   **A:** Yes! It's designed for cross-platform compatibility. Just make sure Python and the required dependencies are installed. (only tested on windows currently i'll admit)
 *   **Q: How secure is my data?**
-    *   **A:** Your data security is my top priority. All data processing occurs locally on your machine. No sensitive information is transmitted to external servers.
+    *   **A:** Your data security is my top priority i put extra work into this and thats why its a github project. All data processing occurs locally on your machine. No sensitive information is transmitted to external servers.
 *   **Q: Will this work for jobs outside of Carleton's MySuccess?**
     *   **A:** No, **MySuccessAutomation is specifically designed for Carleton University's MySuccess co-op portal.** It will not function correctly with other job boards or application systems.
 
@@ -245,6 +239,9 @@ Here's how you can contribute:
 If you dont wanna do anything technical and wanna help dont hesitate to send me feedback to my email at [simonamable@gmail.com](mailto:simonamable@gmail.com), or message me on discord @ : simon3421
 
 ---
+# Star History:
+(give this project a quick star if you found it useful ;)
+<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2l0aHViX3BhdF8xMUE1NjVVWUkwMlhUVERPRjlpNUlGX1FFelBRUktNNHY1Wnk0cnJDTHhoamZLRVU2U0d6ejRMU3lKYkNYanVHMk9WNk03SVlUTVZJUEM4aGph#SimonAmable/MySuccessAutomation&Date" frameBorder="0"></iframe>
 
 ## Giving Credit Where It's Due: Credits and Acknowledgements 📚
 
