@@ -142,7 +142,7 @@ cd MySuccessAutomation # make sure your terminal is open in the correct folder)
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Linux/macOS
-venv\Scripts\activate      # On Windows
+venv/Scripts/activate      # On Windows
 ```
 
 **3. Install Required Packages:**
