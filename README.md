@@ -141,8 +141,8 @@ cd MySuccessAutomation # make sure your terminal is open in the correct folder)
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Linux/macOS
-venv/Scripts/activate      # On Windows
+source ./venv/bin/activate  # On Linux/macOS
+./venv/Scripts/activate      # On Windows
 ```
 
 **3. Install Required Packages:**
@@ -247,7 +247,7 @@ If you dont wanna do anything technical and wanna help dont hesitate to send me 
 
 *   **Inspiration:** The architectural redesign of MySuccessAutomation was inspired by the innovative [AI Hawk](https://github.com/feder-cr/Jobs_Applier_AI_Agent)
 *   **Inspiration:** This is a user focused abstraction of my previous project doing roughly the same thing :  
-*   **A Heartfelt Thank You:** Big thanks to Adilet and all our amazing testers for their invaluable feedback and contributions.
+*   **A Heartfelt Thank You:** Big thanks to Adilet, and and all our other amazing testers for their invaluable feedback and contributions!!!
 
 ---
 give this project a quick star if you found it useful 🙏
