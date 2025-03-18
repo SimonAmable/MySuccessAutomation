@@ -119,7 +119,7 @@ GOOGLE_API_KEY: "AIzaSyDOC-your_key_here-V2vB"  # Replace with your Google API k
 ```
 
 > **Personal Note from the Developer:**
-Apologies for the delayed release. Juggling a major project i've yet to release, school, and work commitments has been quite the challenge. I haven't personally used MySuccessAutomation in 2024, but only because I'm not in the co-op program this year for unrelated reasons. For any employeers or people willing to refer me : I'm open to work opportunities for the summer of 2025 though! #SomeonePleaseGiveMeAJob
+Apologies for the delayed release. Juggling a seperate major project i've yet to release, school, and work commitments has been quite the challenge. I haven't personally used MySuccessAutomation in 2024, but only because I'm not in the co-op program this year for unrelated reasons. For any employeers or people who found this useful willing to refer me, I'm looking for AI related opportunities for the summer of 2025! #SomeonePleaseGiveMeAJob
 
 ---
 
